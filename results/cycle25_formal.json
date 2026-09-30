@@ -1,0 +1,578 @@
+{
+  "aggregates": [
+    {
+      "mean_cross_subset_recall_at_10": 0.9971743629092262,
+      "mean_query_ms": 0.014350583512623416,
+      "mean_recall_at_10": 0.996875,
+      "median_integration_seconds": 1.0290058209793642,
+      "method": "full_rebuild",
+      "pair_count": 4
+    },
+    {
+      "mean_cross_subset_recall_at_10": 0.9974661690848214,
+      "mean_query_ms": 0.01103864599372173,
+      "mean_recall_at_10": 0.9974609375,
+      "median_integration_seconds": 1.033441164472606,
+      "method": "incremental_A_to_B",
+      "pair_count": 4
+    },
+    {
+      "mean_cross_subset_recall_at_10": 0.9979432121155754,
+      "mean_query_ms": 0.011184994662016834,
+      "mean_recall_at_10": 0.9972167968749999,
+      "median_integration_seconds": 1.0459787204745226,
+      "method": "incremental_B_to_A",
+      "pair_count": 4
+    },
+    {
+      "mean_cross_subset_recall_at_10": 0.8999937996031746,
+      "mean_query_ms": 2.128035851455934,
+      "mean_recall_at_10": 0.895068359375,
+      "median_integration_seconds": 2.03100960602751,
+      "method": "random_direct",
+      "pair_count": 4
+    },
+    {
+      "mean_cross_subset_recall_at_10": 0.9654232933407738,
+      "mean_query_ms": 2.114924139220875,
+      "mean_recall_at_10": 0.966455078125,
+      "median_integration_seconds": 2.2758104705717415,
+      "method": "bounded_n8_c2",
+      "pair_count": 4
+    },
+    {
+      "mean_cross_subset_recall_at_10": 0.9756737118675595,
+      "mean_query_ms": 2.34767098197608,
+      "mean_recall_at_10": 0.9757324218750001,
+      "median_integration_seconds": 5.281316420005169,
+      "method": "join1",
+      "pair_count": 4
+    }
+  ],
+  "cases": [
+    {
+      "average_query_ms": 0.021363863424994634,
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.9978957403273809,
+      "experiment_seed": 42,
+      "integration_seconds_median": 0.9361532189650461,
+      "method": "full_rebuild",
+      "metrics": "data/phase4_cycle25/formal/seed_42/rotation/full_rebuild/metrics.json",
+      "pair_key": "42/rotation",
+      "recall_at_10": 0.9970703125
+    },
+    {
+      "average_query_ms": 0.013852744132236694,
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.9983072916666667,
+      "direction": "A<-B",
+      "experiment_seed": 42,
+      "integration_seconds_median": 0.9885655179386958,
+      "method": "incremental_A_to_B",
+      "metrics": "data/phase4_cycle25/formal/seed_42/rotation/incremental/metrics.json",
+      "pair_key": "42/rotation",
+      "recall_at_10": 0.998046875
+    },
+    {
+      "average_query_ms": 0.009747408284965786,
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.9980282738095239,
+      "direction": "B<-A",
+      "experiment_seed": 42,
+      "integration_seconds_median": 1.0167309480020776,
+      "method": "incremental_B_to_A",
+      "metrics": "data/phase4_cycle25/formal/seed_42/rotation/incremental/metrics.json",
+      "pair_key": "42/rotation",
+      "recall_at_10": 0.997265625
+    },
+    {
+      "average_query_ms": 2.2435117009536043,
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.9065964471726191,
+      "experiment_seed": 42,
+      "integration_seconds_median": 2.1397424230817705,
+      "method": "random_direct",
+      "metrics": "data/phase4_cycle25/formal/seed_42/rotation/random_direct/metrics.json",
+      "pair_key": "42/rotation",
+      "recall_at_10": 0.8884765625
+    },
+    {
+      "average_query_ms": 2.06387220509896,
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.9635881696428572,
+      "experiment_seed": 42,
+      "integration_seconds_median": 2.2281597630353644,
+      "method": "bounded_n8_c2",
+      "metrics": "data/phase4_cycle25/formal/seed_42/rotation/bounded_n8_c2/metrics.json",
+      "pair_key": "42/rotation",
+      "recall_at_10": 0.9669921875
+    },
+    {
+      "average_query_ms": 2.725066703305856,
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.9747023809523809,
+      "experiment_seed": 42,
+      "integration_seconds_median": 4.772132092970423,
+      "method": "join1",
+      "metrics": "data/phase4_cycle25/formal/seed_42/rotation/join1/metrics.json",
+      "pair_key": "42/rotation",
+      "recall_at_10": 0.9765625
+    },
+    {
+      "average_query_ms": 0.012950445125170518,
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.9991978236607143,
+      "experiment_seed": 42,
+      "integration_seconds_median": 1.1078673620941117,
+      "method": "full_rebuild",
+      "metrics": "data/phase4_cycle25/formal/seed_42/gaussian_0p100/full_rebuild/metrics.json",
+      "pair_key": "42/gaussian_0p100",
+      "recall_at_10": 0.998046875
+    },
+    {
+      "average_query_ms": 0.009972265615942888,
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.996737816220238,
+      "direction": "A<-B",
+      "experiment_seed": 42,
+      "integration_seconds_median": 1.0343777879606932,
+      "method": "incremental_A_to_B",
+      "metrics": "data/phase4_cycle25/formal/seed_42/gaussian_0p100/incremental/metrics.json",
+      "pair_key": "42/gaussian_0p100",
+      "recall_at_10": 0.9966796874999999
+    },
+    {
+      "average_query_ms": 0.012099431614842615,
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.9977260044642857,
+      "direction": "B<-A",
+      "experiment_seed": 42,
+      "integration_seconds_median": 1.0532436869107187,
+      "method": "incremental_B_to_A",
+      "metrics": "data/phase4_cycle25/formal/seed_42/gaussian_0p100/incremental/metrics.json",
+      "pair_key": "42/gaussian_0p100",
+      "recall_at_10": 0.9966796874999999
+    },
+    {
+      "average_query_ms": 2.09768163267654,
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.9006022135416667,
+      "experiment_seed": 42,
+      "integration_seconds_median": 2.041738811065443,
+      "method": "random_direct",
+      "metrics": "data/phase4_cycle25/formal/seed_42/gaussian_0p100/random_direct/metrics.json",
+      "pair_key": "42/gaussian_0p100",
+      "recall_at_10": 0.888671875
+    },
+    {
+      "average_query_ms": 2.193696953327162,
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.9549851190476191,
+      "experiment_seed": 42,
+      "integration_seconds_median": 2.2785348350880668,
+      "method": "bounded_n8_c2",
+      "metrics": "data/phase4_cycle25/formal/seed_42/gaussian_0p100/bounded_n8_c2/metrics.json",
+      "pair_key": "42/gaussian_0p100",
+      "recall_at_10": 0.961328125
+    },
+    {
+      "average_query_ms": 2.1016404630245233,
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.9710379464285714,
+      "experiment_seed": 42,
+      "integration_seconds_median": 4.723259978112765,
+      "method": "join1",
+      "metrics": "data/phase4_cycle25/formal/seed_42/gaussian_0p100/join1/metrics.json",
+      "pair_key": "42/gaussian_0p100",
+      "recall_at_10": 0.973046875
+    },
+    {
+      "average_query_ms": 0.010882167998715886,
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.997226097470238,
+      "experiment_seed": 43,
+      "integration_seconds_median": 1.0299283290514722,
+      "method": "full_rebuild",
+      "metrics": "data/phase4_cycle25/formal/seed_43/rotation/full_rebuild/metrics.json",
+      "pair_key": "43/rotation",
+      "recall_at_10": 0.997265625
+    },
+    {
+      "average_query_ms": 0.010475128874531947,
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.9993489583333334,
+      "direction": "A<-B",
+      "experiment_seed": 43,
+      "integration_seconds_median": 1.0368714820360765,
+      "method": "incremental_A_to_B",
+      "metrics": "data/phase4_cycle25/formal/seed_43/rotation/incremental/metrics.json",
+      "pair_key": "43/rotation",
+      "recall_at_10": 0.9984375
+    },
+    {
+      "average_query_ms": 0.011221070280953427,
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.9985979352678571,
+      "direction": "B<-A",
+      "experiment_seed": 43,
+      "integration_seconds_median": 1.047384279081598,
+      "method": "incremental_B_to_A",
+      "metrics": "data/phase4_cycle25/formal/seed_43/rotation/incremental/metrics.json",
+      "pair_key": "43/rotation",
+      "recall_at_10": 0.9986328124999999
+    },
+    {
+      "average_query_ms": 2.085970246071156,
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.9027180989583334,
+      "experiment_seed": 43,
+      "integration_seconds_median": 2.0141030739760026,
+      "method": "random_direct",
+      "metrics": "data/phase4_cycle25/formal/seed_43/rotation/random_direct/metrics.json",
+      "pair_key": "43/rotation",
+      "recall_at_10": 0.9050781250000001
+    },
+    {
+      "average_query_ms": 2.103611390793958,
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.9716122581845239,
+      "experiment_seed": 43,
+      "integration_seconds_median": 2.304576357943006,
+      "method": "bounded_n8_c2",
+      "metrics": "data/phase4_cycle25/formal/seed_43/rotation/bounded_n8_c2/metrics.json",
+      "pair_key": "43/rotation",
+      "recall_at_10": 0.9701171875000001
+    },
+    {
+      "average_query_ms": 2.1497829452528094,
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.9773088727678572,
+      "experiment_seed": 43,
+      "integration_seconds_median": 5.790500747039914,
+      "method": "join1",
+      "metrics": "data/phase4_cycle25/formal/seed_43/rotation/join1/metrics.json",
+      "pair_key": "43/rotation",
+      "recall_at_10": 0.9765625
+    },
+    {
+      "average_query_ms": 0.012205857501612627,
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.9943777901785715,
+      "experiment_seed": 43,
+      "integration_seconds_median": 1.0280833129072562,
+      "method": "full_rebuild",
+      "metrics": "data/phase4_cycle25/formal/seed_43/gaussian_0p100/full_rebuild/metrics.json",
+      "pair_key": "43/gaussian_0p100",
+      "recall_at_10": 0.9951171875
+    },
+    {
+      "average_query_ms": 0.00985444535217539,
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.9954706101190476,
+      "direction": "A<-B",
+      "experiment_seed": 43,
+      "integration_seconds_median": 1.0325045409845188,
+      "method": "incremental_A_to_B",
+      "metrics": "data/phase4_cycle25/formal/seed_43/gaussian_0p100/incremental/metrics.json",
+      "pair_key": "43/gaussian_0p100",
+      "recall_at_10": 0.9966796874999999
+    },
+    {
+      "average_query_ms": 0.011672068467305508,
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.9974206349206349,
+      "direction": "B<-A",
+      "experiment_seed": 43,
+      "integration_seconds_median": 1.0445731618674472,
+      "method": "incremental_B_to_A",
+      "metrics": "data/phase4_cycle25/formal/seed_43/gaussian_0p100/incremental/metrics.json",
+      "pair_key": "43/gaussian_0p100",
+      "recall_at_10": 0.9962890625
+    },
+    {
+      "average_query_ms": 2.084979826122435,
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.8900584387400794,
+      "experiment_seed": 43,
+      "integration_seconds_median": 2.020280400989577,
+      "method": "random_direct",
+      "metrics": "data/phase4_cycle25/formal/seed_43/gaussian_0p100/random_direct/metrics.json",
+      "pair_key": "43/gaussian_0p100",
+      "recall_at_10": 0.898046875
+    },
+    {
+      "average_query_ms": 2.09851600766342,
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.9715076264880953,
+      "experiment_seed": 43,
+      "integration_seconds_median": 2.273086106055416,
+      "method": "bounded_n8_c2",
+      "metrics": "data/phase4_cycle25/formal/seed_43/gaussian_0p100/bounded_n8_c2/metrics.json",
+      "pair_key": "43/gaussian_0p100",
+      "recall_at_10": 0.9673828125
+    },
+    {
+      "average_query_ms": 2.4141938163211307,
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.9796456473214286,
+      "experiment_seed": 43,
+      "integration_seconds_median": 7.579361915937625,
+      "method": "join1",
+      "metrics": "data/phase4_cycle25/formal/seed_43/gaussian_0p100/join1/metrics.json",
+      "pair_key": "43/gaussian_0p100",
+      "recall_at_10": 0.9767578125
+    }
+  ],
+  "confidence_intervals": [
+    {
+      "integration_ratio_vs_full_rebuild": {
+        "bootstrap_samples": 10000,
+        "bootstrap_seed": 20260715,
+        "ci95": [
+          0.9514216830712309,
+          1.0428210935036089
+        ],
+        "estimate": 0.9992125537577834,
+        "pair_keys": [
+          "42/gaussian_0p100",
+          "42/rotation",
+          "43/gaussian_0p100",
+          "43/rotation"
+        ],
+        "pairing_unit": "seed\u00d7condition",
+        "schema_version": "metricdb.paired-bootstrap.v1",
+        "statistic": "log_ratio"
+      },
+      "method": "incremental_A_to_B",
+      "recall_delta_vs_full_rebuild": {
+        "bootstrap_samples": 10000,
+        "bootstrap_seed": 20260715,
+        "ci95": [
+          -0.0007324218750000833,
+          0.0014160156249999334
+        ],
+        "estimate": 0.0005859374999999389,
+        "pair_keys": [
+          "42/gaussian_0p100",
+          "42/rotation",
+          "43/gaussian_0p100",
+          "43/rotation"
+        ],
+        "pairing_unit": "seed\u00d7condition",
+        "schema_version": "metricdb.paired-bootstrap.v1",
+        "statistic": "difference"
+      }
+    },
+    {
+      "integration_ratio_vs_full_rebuild": {
+        "bootstrap_samples": 10000,
+        "bootstrap_seed": 20260715,
+        "ci95": [
+          0.9668421692986101,
+          1.068124727951691
+        ],
+        "estimate": 1.0163129307891057,
+        "pair_keys": [
+          "42/gaussian_0p100",
+          "42/rotation",
+          "43/gaussian_0p100",
+          "43/rotation"
+        ],
+        "pairing_unit": "seed\u00d7condition",
+        "schema_version": "metricdb.paired-bootstrap.v1",
+        "statistic": "log_ratio"
+      },
+      "method": "incremental_B_to_A",
+      "recall_delta_vs_full_rebuild": {
+        "bootstrap_samples": 10000,
+        "bootstrap_seed": 20260715,
+        "ci95": [
+          -0.0007324218750000555,
+          0.0012695312499999556
+        ],
+        "estimate": 0.0003417968749999667,
+        "pair_keys": [
+          "42/gaussian_0p100",
+          "42/rotation",
+          "43/gaussian_0p100",
+          "43/rotation"
+        ],
+        "pairing_unit": "seed\u00d7condition",
+        "schema_version": "metricdb.paired-bootstrap.v1",
+        "statistic": "difference"
+      }
+    },
+    {
+      "integration_ratio_vs_full_rebuild": {
+        "bootstrap_samples": 10000,
+        "bootstrap_seed": 20260715,
+        "ci95": [
+          1.872751472577263,
+          2.198262714576537
+        ],
+        "estimate": 2.0058398345102484,
+        "pair_keys": [
+          "42/gaussian_0p100",
+          "42/rotation",
+          "43/gaussian_0p100",
+          "43/rotation"
+        ],
+        "pairing_unit": "seed\u00d7condition",
+        "schema_version": "metricdb.paired-bootstrap.v1",
+        "statistic": "log_ratio"
+      },
+      "method": "random_direct",
+      "recall_delta_vs_full_rebuild": {
+        "bootstrap_samples": 10000,
+        "bootstrap_seed": 20260715,
+        "ci95": [
+          -0.10898437500000002,
+          -0.09462890624999998
+        ],
+        "estimate": -0.101806640625,
+        "pair_keys": [
+          "42/gaussian_0p100",
+          "42/rotation",
+          "43/gaussian_0p100",
+          "43/rotation"
+        ],
+        "pairing_unit": "seed\u00d7condition",
+        "schema_version": "metricdb.paired-bootstrap.v1",
+        "statistic": "difference"
+      }
+    },
+    {
+      "integration_ratio_vs_full_rebuild": {
+        "bootstrap_samples": 10000,
+        "bootstrap_seed": 20260715,
+        "ci95": [
+          2.100496454926387,
+          2.3366649199319633
+        ],
+        "estimate": 2.2183738803199606,
+        "pair_keys": [
+          "42/gaussian_0p100",
+          "42/rotation",
+          "43/gaussian_0p100",
+          "43/rotation"
+        ],
+        "pairing_unit": "seed\u00d7condition",
+        "schema_version": "metricdb.paired-bootstrap.v1",
+        "statistic": "log_ratio"
+      },
+      "method": "bounded_n8_c2",
+      "recall_delta_vs_full_rebuild": {
+        "bootstrap_samples": 10000,
+        "bootstrap_seed": 20260715,
+        "ci95": [
+          -0.03447265625000001,
+          -0.027441406249999967
+        ],
+        "estimate": -0.030419921874999978,
+        "pair_keys": [
+          "42/gaussian_0p100",
+          "42/rotation",
+          "43/gaussian_0p100",
+          "43/rotation"
+        ],
+        "pairing_unit": "seed\u00d7condition",
+        "schema_version": "metricdb.paired-bootstrap.v1",
+        "statistic": "difference"
+      }
+    },
+    {
+      "integration_ratio_vs_full_rebuild": {
+        "bootstrap_samples": 10000,
+        "bootstrap_seed": 20260715,
+        "ci95": [
+          4.568702103994054,
+          6.722713937961809
+        ],
+        "estimate": 5.47845708889824,
+        "pair_keys": [
+          "42/gaussian_0p100",
+          "42/rotation",
+          "43/gaussian_0p100",
+          "43/rotation"
+        ],
+        "pairing_unit": "seed\u00d7condition",
+        "schema_version": "metricdb.paired-bootstrap.v1",
+        "statistic": "log_ratio"
+      },
+      "method": "join1",
+      "recall_delta_vs_full_rebuild": {
+        "bootstrap_samples": 10000,
+        "bootstrap_seed": 20260715,
+        "ci95": [
+          -0.023876953125000017,
+          -0.018945312499999978
+        ],
+        "estimate": -0.021142578125000006,
+        "pair_keys": [
+          "42/gaussian_0p100",
+          "42/rotation",
+          "43/gaussian_0p100",
+          "43/rotation"
+        ],
+        "pairing_unit": "seed\u00d7condition",
+        "schema_version": "metricdb.paired-bootstrap.v1",
+        "statistic": "difference"
+      }
+    }
+  ],
+  "config": "configs/cycle25_glove_formal.json",
+  "dataset": {
+    "data_quality": {
+      "archive_sha256_verified": true,
+      "finite": true,
+      "norm_max": 1.0000001192092896,
+      "norm_min": 0.9999998211860657,
+      "split_checksums_verified": true,
+      "split_exhaustive": true,
+      "split_total": 25512,
+      "split_unique": 25512,
+      "token_count": 25512,
+      "unique_token_count": 25512,
+      "vector_shape": [
+        25512,
+        50
+      ],
+      "zero_vector_count": 0
+    },
+    "dimension": 50,
+    "name": "GloVe 2024 Wikipedia + Gigaword 5 50d",
+    "rows": 25512
+  },
+  "design": {
+    "caveat": "experiment seeds vary rotations, Gaussian perturbations, and stochastic portal selection; the corpus/query split remains seed 42",
+    "conditions": [
+      "rotation",
+      "gaussian_0p100"
+    ],
+    "experiment_seeds": [
+      42,
+      43
+    ],
+    "fixed_split_seed": 42,
+    "pair_count": 4,
+    "pairing_unit": "experiment_seed_x_condition"
+  },
+  "formal_manifest": "data/phase4_cycle25/formal/manifest.json",
+  "prepared_manifest": "data/phase4_cycle25/prepared/manifest.json",
+  "schema_version": "metricdb.cycle25-compact.v1",
+  "source_checksums": {
+    "config": "37e20cd06c14f9f1c738a3847aa8f3725ecf86fa77727b2e59e253a898517659",
+    "formal_manifest": "368345263990d4376d9b2e35db4205abbbfb5df8159f02a9e11e15eb90a9f76a",
+    "prepared_manifest": "15d4037930b5ca2a297807a65840ffb496bf14cce1f665e370e46003af52a143"
+  },
+  "status": "complete",
+  "validation": {
+    "checked_external_graphs": 12,
+    "checked_metrics": 24,
+    "checked_native_indices": 12,
+    "errors": [],
+    "expected_case_count": 24,
+    "independently_recalculated_recalls": 24,
+    "valid": true
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "profile": "formal_experiment",
+  "description": "Formal Phase 3 configuration skeleton for D_A + D_B after pairwise Phase 2 validation outputs exist.",
+  "phase2": {
+    "compiled_graph_root": "data/phase2_compiled_graphs",
+    "repaired_graph_root": "data/phase2_repaired_graphs",
+    "manifest": "data/phase2_run_manifest.json",
+    "recommended_pairwise_config": "configs/phase2_pairwise_validation.json"
+  },
+  "subsets": {
+    "pair": ["D_A", "D_B"]
+  },
+  "input": {
+    "data_seeds": [42, 43, 44, 45, 46],
+    "conditions": [
+      "identity",
+      "rotation",
+      "reflection",
+      "translation",
+      "orthogonal_translation",
+      "gaussian_0p010",
+      "gaussian_0p050",
+      "gaussian_0p100",
+      "laplacian_0p010",
+      "laplacian_0p050",
+      "laplacian_0p100"
+    ],
+    "graph_kind": "raw_level0",
+    "within_subset_variant": "practical_repair",
+    "require_raw_no_repair_graph": true
+  },
+  "methods": {
+    "enabled": [
+      "bruteforce_ground_truth",
+      "full_rebuild_hnsw",
+      "dual_index",
+      "no_cross_merged",
+      "random_cross_links",
+      "sampled_cross_knn",
+      "incremental_insertion"
+    ],
+    "first_round": [
+      "bruteforce_ground_truth",
+      "full_rebuild_hnsw",
+      "dual_index",
+      "no_cross_merged",
+      "random_cross_links",
+      "sampled_cross_knn",
+      "incremental_insertion"
+    ],
+    "second_round_planned": [
+      "anchor_pseudo_anchor_cross_links",
+      "join_set_propagation_merge",
+      "raw_level0_vs_query_derived_ablation",
+      "no_repair_vs_practical_repair_ablation"
+    ]
+  },
+  "search": {
+    "m": 16,
+    "ef_construction": 200,
+    "ef_search": 64,
+    "evaluation_k": [1, 10, 50],
+    "brute_force_batch_size": 256
+  },
+  "cross_links": {
+    "sample_ratios": [0.01, 0.05, 0.1, 0.2, 1.0],
+    "cross_k": [1, 2, 4, 8, 16],
+    "random_seed": 442
+  },
+  "metrics": {
+    "latency_warmup_queries": 20,
+    "latency_repetitions": 5
+  },
+  "output": {
+    "root": "data",
+    "manifest": "data/phase3_run_manifest.json"
+  },
+  "stages": {
+    "run_tests": false,
+    "readiness_check_only": true,
+    "fail_on_missing_inputs": true
+  }
+}

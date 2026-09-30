@@ -1,0 +1,120 @@
+{
+  "schema_version": "metricdb.cycle24-smoke.v1",
+  "seed": 24,
+  "cases": [
+    {
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "first": {
+        "schema_version": "metricdb.sequential-merge.v1",
+        "selection_seconds": 6.133399438112974e-05,
+        "candidate_seconds": 0.0001868800027295947,
+        "propagation_seconds": 0.0,
+        "integration_seconds": 0.0007308470085263252,
+        "candidate_distance_count": 64,
+        "candidate_budget_upper_bound": 64,
+        "bridge_edge_count": 32,
+        "preserved_prior_edge_count": 20,
+        "prior_edges_preserved": true,
+        "weak_component_count": 1,
+        "directed_reachable_count": 40,
+        "node_count": 40
+      },
+      "second": {
+        "schema_version": "metricdb.sequential-merge.v1",
+        "selection_seconds": 3.581796772778034e-05,
+        "candidate_seconds": 0.00014592905063182116,
+        "propagation_seconds": 0.0,
+        "integration_seconds": 0.0009113249834626913,
+        "candidate_distance_count": 64,
+        "candidate_budget_upper_bound": 64,
+        "bridge_edge_count": 32,
+        "preserved_prior_edge_count": 72,
+        "prior_edges_preserved": true,
+        "weak_component_count": 1,
+        "directed_reachable_count": 60,
+        "node_count": 60
+      },
+      "unique_ids": true
+    },
+    {
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "first": {
+        "schema_version": "metricdb.sequential-merge.v1",
+        "selection_seconds": 3.517000004649162e-05,
+        "candidate_seconds": 0.00012777792289853096,
+        "propagation_seconds": 0.0,
+        "integration_seconds": 0.0006163630168884993,
+        "candidate_distance_count": 64,
+        "candidate_budget_upper_bound": 64,
+        "bridge_edge_count": 32,
+        "preserved_prior_edge_count": 20,
+        "prior_edges_preserved": true,
+        "weak_component_count": 1,
+        "directed_reachable_count": 40,
+        "node_count": 40
+      },
+      "second": {
+        "schema_version": "metricdb.sequential-merge.v1",
+        "selection_seconds": 3.3073010854423046e-05,
+        "candidate_seconds": 0.00013349996879696846,
+        "propagation_seconds": 0.0,
+        "integration_seconds": 0.0008765340317040682,
+        "candidate_distance_count": 64,
+        "candidate_budget_upper_bound": 64,
+        "bridge_edge_count": 32,
+        "preserved_prior_edge_count": 72,
+        "prior_edges_preserved": true,
+        "weak_component_count": 1,
+        "directed_reachable_count": 60,
+        "node_count": 60
+      },
+      "unique_ids": true
+    },
+    {
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "first": {
+        "schema_version": "metricdb.sequential-merge.v1",
+        "selection_seconds": 3.26639274135232e-05,
+        "candidate_seconds": 0.00012535101268440485,
+        "propagation_seconds": 0.0,
+        "integration_seconds": 0.0006126880180090666,
+        "candidate_distance_count": 64,
+        "candidate_budget_upper_bound": 64,
+        "bridge_edge_count": 32,
+        "preserved_prior_edge_count": 20,
+        "prior_edges_preserved": true,
+        "weak_component_count": 1,
+        "directed_reachable_count": 40,
+        "node_count": 40
+      },
+      "second": {
+        "schema_version": "metricdb.sequential-merge.v1",
+        "selection_seconds": 3.211793955415487e-05,
+        "candidate_seconds": 0.00018288393039256334,
+        "propagation_seconds": 0.0,
+        "integration_seconds": 0.0012225479586049914,
+        "candidate_distance_count": 64,
+        "candidate_budget_upper_bound": 64,
+        "bridge_edge_count": 32,
+        "preserved_prior_edge_count": 72,
+        "prior_edges_preserved": true,
+        "weak_component_count": 1,
+        "directed_reachable_count": 60,
+        "node_count": 60
+      },
+      "unique_ids": true
+    }
+  ]
+}

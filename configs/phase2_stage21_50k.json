@@ -1,0 +1,13 @@
+{
+  "profile": "formal_experiment",
+  "description": "Stage 21 50k three-seed no-repair input generation.",
+  "phase1": {"transformation_dir": "unused_in_multiseed", "subset_dir": "unused_in_multiseed", "source_config": "configs/phase1_stage21_50k.json"},
+  "subsets": ["D_A", "D_B"],
+  "transformations": {"exact": ["rotation"], "include_general_linear_stress": false},
+  "noise": {"families": ["gaussian"], "levels": [0.1]},
+  "graph": {"kinds": ["raw_level0"], "variants": ["no_repair"], "degree_budget_policy": "original_degree", "candidate_search_k": 64, "force_weak_connectivity": false},
+  "search": {"m": 16, "ef_construction": 200, "ef_search": 64, "evaluation_k": [1, 10, 50], "brute_force_batch_size": 256},
+  "queries": {"corpus_point_count_per_subset": 256, "held_out_count_per_subset": 256},
+  "seeds": {"data": [42, 43, 44], "transformation": 142, "noise": 242, "query": 342},
+  "stages": {"run_tests": false}
+}

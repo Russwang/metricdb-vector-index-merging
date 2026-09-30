@@ -1,0 +1,2240 @@
+{
+  "schema_version": "metricdb.cycle22-results.v1",
+  "seed": 22,
+  "results": {
+    "faiss_hnsw": {
+      "search_sample": [
+        "item-0",
+        "item-21",
+        "item-58",
+        "item-1",
+        "item-63",
+        "item-30",
+        "item-29",
+        "item-9",
+        "item-78",
+        "item-70"
+      ],
+      "benchmark": {
+        "schema_version": "metricdb.query-benchmark.v1",
+        "backend": "faiss_hnsw",
+        "k": 10,
+        "query_count": 24,
+        "warmup_query_count": 20,
+        "repetitions": 5,
+        "faiss_threads": 1,
+        "raw_queries": [
+          {
+            "repetition": 0,
+            "query_index": 0,
+            "latency_ns": 45432,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 1,
+            "latency_ns": 44610,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 2,
+            "latency_ns": 42956,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 3,
+            "latency_ns": 43012,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 131,
+            "nhops": 65
+          },
+          {
+            "repetition": 0,
+            "query_index": 4,
+            "latency_ns": 45036,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 5,
+            "latency_ns": 43634,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 6,
+            "latency_ns": 44161,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 137,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 7,
+            "latency_ns": 43440,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 8,
+            "latency_ns": 43393,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 9,
+            "latency_ns": 44081,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 10,
+            "latency_ns": 42630,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 137,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 11,
+            "latency_ns": 42989,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 12,
+            "latency_ns": 43045,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 13,
+            "latency_ns": 43350,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 14,
+            "latency_ns": 43967,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 135,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 15,
+            "latency_ns": 43948,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 16,
+            "latency_ns": 43382,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 17,
+            "latency_ns": 42475,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 18,
+            "latency_ns": 44153,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 19,
+            "latency_ns": 43890,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 20,
+            "latency_ns": 43883,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 21,
+            "latency_ns": 43305,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 129,
+            "nhops": 65
+          },
+          {
+            "repetition": 0,
+            "query_index": 22,
+            "latency_ns": 43727,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 0,
+            "query_index": 23,
+            "latency_ns": 43983,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 0,
+            "latency_ns": 43593,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 1,
+            "latency_ns": 43431,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 2,
+            "latency_ns": 42915,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 3,
+            "latency_ns": 43019,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 131,
+            "nhops": 65
+          },
+          {
+            "repetition": 1,
+            "query_index": 4,
+            "latency_ns": 42450,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 5,
+            "latency_ns": 42355,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 6,
+            "latency_ns": 43235,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 137,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 7,
+            "latency_ns": 44154,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 8,
+            "latency_ns": 43272,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 9,
+            "latency_ns": 43704,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 10,
+            "latency_ns": 43034,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 137,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 11,
+            "latency_ns": 43831,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 12,
+            "latency_ns": 42793,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 13,
+            "latency_ns": 43028,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 14,
+            "latency_ns": 43289,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 135,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 15,
+            "latency_ns": 42987,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 16,
+            "latency_ns": 43076,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 17,
+            "latency_ns": 47075,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 18,
+            "latency_ns": 43477,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 19,
+            "latency_ns": 43229,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 20,
+            "latency_ns": 45447,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 21,
+            "latency_ns": 42997,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 129,
+            "nhops": 65
+          },
+          {
+            "repetition": 1,
+            "query_index": 22,
+            "latency_ns": 43208,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 1,
+            "query_index": 23,
+            "latency_ns": 43313,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 0,
+            "latency_ns": 44339,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 1,
+            "latency_ns": 46218,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 2,
+            "latency_ns": 44579,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 3,
+            "latency_ns": 44308,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 131,
+            "nhops": 65
+          },
+          {
+            "repetition": 2,
+            "query_index": 4,
+            "latency_ns": 42652,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 5,
+            "latency_ns": 44215,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 6,
+            "latency_ns": 43818,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 137,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 7,
+            "latency_ns": 43781,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 8,
+            "latency_ns": 43391,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 9,
+            "latency_ns": 44515,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 10,
+            "latency_ns": 43762,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 137,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 11,
+            "latency_ns": 43369,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 12,
+            "latency_ns": 43536,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 13,
+            "latency_ns": 61799,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 14,
+            "latency_ns": 74484,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 135,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 15,
+            "latency_ns": 65229,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 16,
+            "latency_ns": 59471,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 17,
+            "latency_ns": 63084,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 18,
+            "latency_ns": 62476,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 19,
+            "latency_ns": 61797,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 20,
+            "latency_ns": 56833,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 21,
+            "latency_ns": 50447,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 129,
+            "nhops": 65
+          },
+          {
+            "repetition": 2,
+            "query_index": 22,
+            "latency_ns": 53187,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 2,
+            "query_index": 23,
+            "latency_ns": 54400,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 0,
+            "latency_ns": 58912,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 1,
+            "latency_ns": 55716,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 2,
+            "latency_ns": 57207,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 3,
+            "latency_ns": 58907,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 131,
+            "nhops": 65
+          },
+          {
+            "repetition": 3,
+            "query_index": 4,
+            "latency_ns": 56138,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 5,
+            "latency_ns": 61116,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 6,
+            "latency_ns": 59986,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 137,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 7,
+            "latency_ns": 58803,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 8,
+            "latency_ns": 51005,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 9,
+            "latency_ns": 46566,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 10,
+            "latency_ns": 45464,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 137,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 11,
+            "latency_ns": 44885,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 12,
+            "latency_ns": 46469,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 13,
+            "latency_ns": 43681,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 14,
+            "latency_ns": 44086,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 135,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 15,
+            "latency_ns": 43537,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 16,
+            "latency_ns": 43051,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 17,
+            "latency_ns": 44919,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 18,
+            "latency_ns": 43962,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 19,
+            "latency_ns": 45347,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 20,
+            "latency_ns": 46198,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 21,
+            "latency_ns": 50517,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 129,
+            "nhops": 65
+          },
+          {
+            "repetition": 3,
+            "query_index": 22,
+            "latency_ns": 48527,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 3,
+            "query_index": 23,
+            "latency_ns": 47689,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 0,
+            "latency_ns": 47330,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 1,
+            "latency_ns": 47689,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 2,
+            "latency_ns": 45317,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 3,
+            "latency_ns": 47603,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 131,
+            "nhops": 65
+          },
+          {
+            "repetition": 4,
+            "query_index": 4,
+            "latency_ns": 46785,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 5,
+            "latency_ns": 50185,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 6,
+            "latency_ns": 47580,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 137,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 7,
+            "latency_ns": 46550,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 8,
+            "latency_ns": 47044,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 9,
+            "latency_ns": 56411,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 10,
+            "latency_ns": 57608,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 137,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 11,
+            "latency_ns": 54208,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 12,
+            "latency_ns": 56920,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 13,
+            "latency_ns": 57936,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 14,
+            "latency_ns": 54096,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 135,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 15,
+            "latency_ns": 48025,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 16,
+            "latency_ns": 48144,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 17,
+            "latency_ns": 46744,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 18,
+            "latency_ns": 45703,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 19,
+            "latency_ns": 45247,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 138,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 20,
+            "latency_ns": 44814,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 21,
+            "latency_ns": 44587,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 129,
+            "nhops": 65
+          },
+          {
+            "repetition": 4,
+            "query_index": 22,
+            "latency_ns": 49020,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 136,
+            "nhops": 66
+          },
+          {
+            "repetition": 4,
+            "query_index": 23,
+            "latency_ns": 48159,
+            "result_count": 10,
+            "backend": "faiss_hnsw",
+            "ndis": 139,
+            "nhops": 66
+          }
+        ],
+        "summary": {
+          "median_latency_ms": 0.044583,
+          "p95_latency_ms": 0.06115005,
+          "qps": 21002.972445675376
+        }
+      },
+      "capacity": {
+        "vector_bytes": 8192,
+        "id_bytes_utf8": 914,
+        "directed_edge_count": 1237,
+        "compact_adjacency_proxy_bytes": 10928,
+        "serialized_artifact_bytes": 27879
+      }
+    },
+    "external_graph": {
+      "search_sample": [
+        "item-0",
+        "item-21",
+        "item-58",
+        "item-1",
+        "item-63",
+        "item-30",
+        "item-29",
+        "item-9",
+        "item-78",
+        "item-70"
+      ],
+      "benchmark": {
+        "schema_version": "metricdb.query-benchmark.v1",
+        "backend": "external_graph",
+        "k": 10,
+        "query_count": 24,
+        "warmup_query_count": 20,
+        "repetitions": 5,
+        "faiss_threads": null,
+        "raw_queries": [
+          {
+            "repetition": 0,
+            "query_index": 0,
+            "latency_ns": 877175,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 125,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 1,
+            "latency_ns": 836693,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 128,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 2,
+            "latency_ns": 925524,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 3,
+            "latency_ns": 993280,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 124,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 4,
+            "latency_ns": 865528,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 5,
+            "latency_ns": 964984,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 124,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 6,
+            "latency_ns": 907159,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 125,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 7,
+            "latency_ns": 814140,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 126,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 8,
+            "latency_ns": 771280,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 128,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 9,
+            "latency_ns": 1002162,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 126,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 10,
+            "latency_ns": 872240,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 11,
+            "latency_ns": 898818,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 125,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 12,
+            "latency_ns": 882372,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 128,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 13,
+            "latency_ns": 866064,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 123,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 14,
+            "latency_ns": 889392,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 123,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 15,
+            "latency_ns": 911279,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 16,
+            "latency_ns": 1386619,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 123,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 17,
+            "latency_ns": 1057476,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 125,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 18,
+            "latency_ns": 857439,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 123,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 19,
+            "latency_ns": 847350,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 126,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 20,
+            "latency_ns": 905027,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 128,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 21,
+            "latency_ns": 943585,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 124,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 22,
+            "latency_ns": 925589,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 126,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 0,
+            "query_index": 23,
+            "latency_ns": 865415,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 0,
+            "latency_ns": 931811,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 125,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 1,
+            "latency_ns": 870695,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 128,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 2,
+            "latency_ns": 914031,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 3,
+            "latency_ns": 1070929,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 124,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 4,
+            "latency_ns": 1094325,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 5,
+            "latency_ns": 887063,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 124,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 6,
+            "latency_ns": 847894,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 125,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 7,
+            "latency_ns": 847221,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 126,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 8,
+            "latency_ns": 854373,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 128,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 9,
+            "latency_ns": 1092815,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 126,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 10,
+            "latency_ns": 885646,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 11,
+            "latency_ns": 1029653,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 125,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 12,
+            "latency_ns": 933733,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 128,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 13,
+            "latency_ns": 878557,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 123,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 14,
+            "latency_ns": 868071,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 123,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 15,
+            "latency_ns": 842273,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 16,
+            "latency_ns": 830921,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 123,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 17,
+            "latency_ns": 831328,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 125,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 18,
+            "latency_ns": 807190,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 123,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 19,
+            "latency_ns": 836864,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 126,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 20,
+            "latency_ns": 930212,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 128,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 21,
+            "latency_ns": 1080347,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 124,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 22,
+            "latency_ns": 880263,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 126,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 1,
+            "query_index": 23,
+            "latency_ns": 802573,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 0,
+            "latency_ns": 870904,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 125,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 1,
+            "latency_ns": 812366,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 128,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 2,
+            "latency_ns": 894087,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 3,
+            "latency_ns": 797570,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 124,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 4,
+            "latency_ns": 827792,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 5,
+            "latency_ns": 1023971,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 124,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 6,
+            "latency_ns": 927667,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 125,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 7,
+            "latency_ns": 885585,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 126,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 8,
+            "latency_ns": 807070,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 128,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 9,
+            "latency_ns": 879794,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 126,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 10,
+            "latency_ns": 799899,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 11,
+            "latency_ns": 833502,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 125,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 12,
+            "latency_ns": 819823,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 128,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 13,
+            "latency_ns": 807507,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 123,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 14,
+            "latency_ns": 815702,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 123,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 15,
+            "latency_ns": 808332,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 16,
+            "latency_ns": 785759,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 123,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 17,
+            "latency_ns": 761789,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 125,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 18,
+            "latency_ns": 725005,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 123,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 19,
+            "latency_ns": 900049,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 126,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 20,
+            "latency_ns": 915758,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 128,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 21,
+            "latency_ns": 872080,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 124,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 22,
+            "latency_ns": 860908,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 126,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 2,
+            "query_index": 23,
+            "latency_ns": 796954,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 0,
+            "latency_ns": 1026001,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 125,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 1,
+            "latency_ns": 1011884,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 128,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 2,
+            "latency_ns": 1031905,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 3,
+            "latency_ns": 861308,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 124,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 4,
+            "latency_ns": 824227,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 5,
+            "latency_ns": 790125,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 124,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 6,
+            "latency_ns": 786976,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 125,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 7,
+            "latency_ns": 793298,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 126,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 8,
+            "latency_ns": 771500,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 128,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 9,
+            "latency_ns": 876655,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 126,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 10,
+            "latency_ns": 874132,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 11,
+            "latency_ns": 848410,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 125,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 12,
+            "latency_ns": 814511,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 128,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 13,
+            "latency_ns": 796001,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 123,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 14,
+            "latency_ns": 807680,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 123,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 15,
+            "latency_ns": 762586,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 16,
+            "latency_ns": 774741,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 123,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 17,
+            "latency_ns": 746605,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 125,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 18,
+            "latency_ns": 715910,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 123,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 19,
+            "latency_ns": 756670,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 126,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 20,
+            "latency_ns": 1048207,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 128,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 21,
+            "latency_ns": 1123026,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 124,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 22,
+            "latency_ns": 1024162,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 126,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 3,
+            "query_index": 23,
+            "latency_ns": 876374,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 0,
+            "latency_ns": 1108375,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 125,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 1,
+            "latency_ns": 1161716,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 128,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 2,
+            "latency_ns": 957738,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 3,
+            "latency_ns": 891483,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 124,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 4,
+            "latency_ns": 1018265,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 5,
+            "latency_ns": 1089668,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 124,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 6,
+            "latency_ns": 915536,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 125,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 7,
+            "latency_ns": 896050,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 126,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 8,
+            "latency_ns": 788160,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 128,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 9,
+            "latency_ns": 992448,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 126,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 10,
+            "latency_ns": 891115,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 11,
+            "latency_ns": 918532,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 125,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 12,
+            "latency_ns": 1060041,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 128,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 13,
+            "latency_ns": 1034691,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 123,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 14,
+            "latency_ns": 1004487,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 123,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 15,
+            "latency_ns": 858537,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 16,
+            "latency_ns": 859611,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 123,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 17,
+            "latency_ns": 826906,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 125,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 18,
+            "latency_ns": 743108,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 123,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 19,
+            "latency_ns": 774640,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 126,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 20,
+            "latency_ns": 837875,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 128,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 21,
+            "latency_ns": 872472,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 124,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 22,
+            "latency_ns": 949346,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 126,
+            "visited_nodes": 64
+          },
+          {
+            "repetition": 4,
+            "query_index": 23,
+            "latency_ns": 808142,
+            "result_count": 10,
+            "backend": "external_graph",
+            "distance_evaluations": 127,
+            "visited_nodes": 64
+          }
+        ],
+        "summary": {
+          "median_latency_ms": 0.872356,
+          "p95_latency_ms": 1.0898253500000001,
+          "qps": 1119.9557856388574
+        }
+      },
+      "capacity": {
+        "vector_bytes": 8192,
+        "id_bytes_utf8": 914,
+        "directed_edge_count": 1133,
+        "compact_adjacency_proxy_bytes": 10096,
+        "serialized_artifact_bytes": 8803
+      }
+    }
+  }
+}

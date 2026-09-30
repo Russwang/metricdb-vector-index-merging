@@ -1,0 +1,43 @@
+{
+  "schema_version": "metricdb.glove-cycle25.v1",
+  "source_path": "data/phase4_cycle25/glove/wiki_giga_2024_50_MFT20_vectors_seed_123_alpha_0.75_eta_0.075_combined.txt",
+  "source_sha256": "16c4253cb9a19045dcdc758b6a1eda52d3c37b894dea2601a45046b4300a8d10",
+  "dimension": 50,
+  "accepted_count": 25512,
+  "rejected": {
+    "bad_field_count": 7,
+    "duplicate_token": 0,
+    "non_numeric_or_non_finite": 0,
+    "zero_norm": 0
+  },
+  "normalization": "row-wise L2",
+  "parsing_rule": "whitespace token plus exactly dimension finite floats; first unique non-zero rows",
+  "official_page": "https://nlp.stanford.edu/projects/glove/",
+  "download_url": "https://nlp.stanford.edu/data/wordvecs/glove.2024.wikigiga.50d.zip",
+  "license": "Open Data Commons PDDL v1.0",
+  "license_url": "https://opendatacommons.org/licenses/pddl/1.0/",
+  "archive_sha256": "afa5e258ee38272db6394547c4b075ecbb7b2164e98542c8d1237b6029b35a65",
+  "archive_bytes": 301036094,
+  "archive_member": "wiki_giga_2024_50_MFT20_vectors_seed_123_alpha_0.75_eta_0.075_combined.txt",
+  "split": {
+    "seed": 42,
+    "artifacts": {
+      "D_A_indices": {
+        "count": 12500,
+        "sha256": "e92fc1ffaeec97b9c3fd091c876fe9be218df6b618c806c600d0ab3d9ae1c59b"
+      },
+      "D_B_indices": {
+        "count": 12500,
+        "sha256": "6cba8c883000dd8946f3956fac5c2c1e108ae099289fa13eac5253e786434a65"
+      },
+      "query_A_indices": {
+        "count": 256,
+        "sha256": "9a716f75155d9391ee91d18a5a72ad70ac55e0576dd47e972d5490b00d8703be"
+      },
+      "query_B_indices": {
+        "count": 256,
+        "sha256": "4fcd7d2e4c6b3fbe9b2c4c557b85858f1d7a04d7691eaca8df57bd703a35f99e"
+      }
+    }
+  }
+}

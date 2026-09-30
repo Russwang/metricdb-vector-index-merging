@@ -1,0 +1,4 @@
+method,recall,integration_seconds,latency_ms,method_code
+Full rebuild,0.99687500,1.02900582,0.01435058,Full
+Bounded N8/C2,0.96645508,2.27581047,2.11492414,Bounded
+Unlimited JOIN1,0.97573242,5.28131642,2.34767098,Join1

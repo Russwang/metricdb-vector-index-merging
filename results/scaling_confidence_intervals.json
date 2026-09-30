@@ -1,0 +1,518 @@
+{
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 20260715,
+  "config": "configs/phase4_scaling_statistics.json",
+  "pairing_unit": "data_seed_x_condition",
+  "scales": [
+    {
+      "comparisons": [
+        {
+          "baseline": "indexed_cross_knn/random_direct",
+          "candidate": "indexed_cross_knn/bounded_n8_c2",
+          "integration_ratio": {
+            "bootstrap_samples": 10000,
+            "bootstrap_seed": 20260715,
+            "ci95": [
+              1.1423546910448061,
+              1.1995311516568248
+            ],
+            "estimate": 1.1665397717031756,
+            "pair_keys": [
+              "seed_42/gaussian_0p050",
+              "seed_42/gaussian_0p100",
+              "seed_42/rotation",
+              "seed_43/gaussian_0p050",
+              "seed_43/gaussian_0p100",
+              "seed_43/rotation"
+            ],
+            "pairing_unit": "seed\u00d7condition",
+            "schema_version": "metricdb.paired-bootstrap.v1",
+            "statistic": "log_ratio"
+          },
+          "recall_delta": {
+            "bootstrap_samples": 10000,
+            "bootstrap_seed": 20260715,
+            "ci95": [
+              0.061002604166666696,
+              0.07200520833333339
+            ],
+            "estimate": 0.06679687500000005,
+            "pair_keys": [
+              "seed_42/gaussian_0p050",
+              "seed_42/gaussian_0p100",
+              "seed_42/rotation",
+              "seed_43/gaussian_0p050",
+              "seed_43/gaussian_0p100",
+              "seed_43/rotation"
+            ],
+            "pairing_unit": "seed\u00d7condition",
+            "schema_version": "metricdb.paired-bootstrap.v1",
+            "statistic": "difference"
+          }
+        },
+        {
+          "baseline": "indexed_cross_knn/random_direct",
+          "candidate": "indexed_cross_knn/unlimited_join1",
+          "integration_ratio": {
+            "bootstrap_samples": 10000,
+            "bootstrap_seed": 20260715,
+            "ci95": [
+              3.4299296035558897,
+              4.905753163043781
+            ],
+            "estimate": 4.059089009968372,
+            "pair_keys": [
+              "seed_42/gaussian_0p050",
+              "seed_42/gaussian_0p100",
+              "seed_42/rotation",
+              "seed_43/gaussian_0p050",
+              "seed_43/gaussian_0p100",
+              "seed_43/rotation"
+            ],
+            "pairing_unit": "seed\u00d7condition",
+            "schema_version": "metricdb.paired-bootstrap.v1",
+            "statistic": "log_ratio"
+          },
+          "recall_delta": {
+            "bootstrap_samples": 10000,
+            "bootstrap_seed": 20260715,
+            "ci95": [
+              0.07226562500000004,
+              0.08450520833333341
+            ],
+            "estimate": 0.07903645833333339,
+            "pair_keys": [
+              "seed_42/gaussian_0p050",
+              "seed_42/gaussian_0p100",
+              "seed_42/rotation",
+              "seed_43/gaussian_0p050",
+              "seed_43/gaussian_0p100",
+              "seed_43/rotation"
+            ],
+            "pairing_unit": "seed\u00d7condition",
+            "schema_version": "metricdb.paired-bootstrap.v1",
+            "statistic": "difference"
+          }
+        }
+      ],
+      "evaluated_pair_size": 6667,
+      "label": "10k",
+      "pair_count": 6,
+      "pair_keys": [
+        "seed_42/gaussian_0p050",
+        "seed_42/gaussian_0p100",
+        "seed_42/rotation",
+        "seed_43/gaussian_0p050",
+        "seed_43/gaussian_0p100",
+        "seed_43/rotation"
+      ],
+      "repair_input": "practical_repair",
+      "source_manifest": "results/scaling_10k_compact.json",
+      "source_manifest_sha256": "65f5f48adc73efd96fe492593e21a31f4e7fe85671069b191e08b5a556bada5a",
+      "source_scale": 10000
+    },
+    {
+      "comparisons": [
+        {
+          "baseline": "indexed_cross_knn/random_direct",
+          "candidate": "indexed_cross_knn/bounded_n8_c2",
+          "integration_ratio": {
+            "bootstrap_samples": 10000,
+            "bootstrap_seed": 20260715,
+            "ci95": [
+              1.0115423761025715,
+              1.239896180648258
+            ],
+            "estimate": 1.1027225302980408,
+            "pair_keys": [
+              "seed_42/gaussian_0p050",
+              "seed_42/gaussian_0p100",
+              "seed_42/rotation",
+              "seed_43/gaussian_0p050",
+              "seed_43/gaussian_0p100",
+              "seed_43/rotation"
+            ],
+            "pairing_unit": "seed\u00d7condition",
+            "schema_version": "metricdb.paired-bootstrap.v1",
+            "statistic": "log_ratio"
+          },
+          "recall_delta": {
+            "bootstrap_samples": 10000,
+            "bootstrap_seed": 20260715,
+            "ci95": [
+              0.07848307291666666,
+              0.10146484375000002
+            ],
+            "estimate": 0.08935546874999996,
+            "pair_keys": [
+              "seed_42/gaussian_0p050",
+              "seed_42/gaussian_0p100",
+              "seed_42/rotation",
+              "seed_43/gaussian_0p050",
+              "seed_43/gaussian_0p100",
+              "seed_43/rotation"
+            ],
+            "pairing_unit": "seed\u00d7condition",
+            "schema_version": "metricdb.paired-bootstrap.v1",
+            "statistic": "difference"
+          }
+        },
+        {
+          "baseline": "full_rebuild_hnsw",
+          "candidate": "indexed_cross_knn/bounded_n8_c2",
+          "integration_ratio": {
+            "bootstrap_samples": 10000,
+            "bootstrap_seed": 20260715,
+            "ci95": [
+              1.408138128486876,
+              2.1965312313978087
+            ],
+            "estimate": 1.7839044793509977,
+            "pair_keys": [
+              "seed_42/gaussian_0p050",
+              "seed_42/gaussian_0p100",
+              "seed_42/rotation",
+              "seed_43/gaussian_0p050",
+              "seed_43/gaussian_0p100",
+              "seed_43/rotation"
+            ],
+            "pairing_unit": "seed\u00d7condition",
+            "schema_version": "metricdb.paired-bootstrap.v1",
+            "statistic": "log_ratio"
+          },
+          "recall_delta": {
+            "bootstrap_samples": 10000,
+            "bootstrap_seed": 20260715,
+            "ci95": [
+              -0.07324218750000004,
+              -0.059407552083333336
+            ],
+            "estimate": -0.06546223958333335,
+            "pair_keys": [
+              "seed_42/gaussian_0p050",
+              "seed_42/gaussian_0p100",
+              "seed_42/rotation",
+              "seed_43/gaussian_0p050",
+              "seed_43/gaussian_0p100",
+              "seed_43/rotation"
+            ],
+            "pairing_unit": "seed\u00d7condition",
+            "schema_version": "metricdb.paired-bootstrap.v1",
+            "statistic": "difference"
+          }
+        },
+        {
+          "baseline": "indexed_cross_knn/random_direct",
+          "candidate": "indexed_cross_knn/unlimited_join1",
+          "integration_ratio": {
+            "bootstrap_samples": 10000,
+            "bootstrap_seed": 20260715,
+            "ci95": [
+              1.6697976310844795,
+              1.8540121827811658
+            ],
+            "estimate": 1.759495709233119,
+            "pair_keys": [
+              "seed_42/gaussian_0p050",
+              "seed_42/gaussian_0p100",
+              "seed_42/rotation",
+              "seed_43/gaussian_0p050",
+              "seed_43/gaussian_0p100",
+              "seed_43/rotation"
+            ],
+            "pairing_unit": "seed\u00d7condition",
+            "schema_version": "metricdb.paired-bootstrap.v1",
+            "statistic": "log_ratio"
+          },
+          "recall_delta": {
+            "bootstrap_samples": 10000,
+            "bootstrap_seed": 20260715,
+            "ci95": [
+              0.10566406250000009,
+              0.12272135416666663
+            ],
+            "estimate": 0.11334635416666668,
+            "pair_keys": [
+              "seed_42/gaussian_0p050",
+              "seed_42/gaussian_0p100",
+              "seed_42/rotation",
+              "seed_43/gaussian_0p050",
+              "seed_43/gaussian_0p100",
+              "seed_43/rotation"
+            ],
+            "pairing_unit": "seed\u00d7condition",
+            "schema_version": "metricdb.paired-bootstrap.v1",
+            "statistic": "difference"
+          }
+        },
+        {
+          "baseline": "full_rebuild_hnsw",
+          "candidate": "indexed_cross_knn/unlimited_join1",
+          "integration_ratio": {
+            "bootstrap_samples": 10000,
+            "bootstrap_seed": 20260715,
+            "ci95": [
+              2.2388801508854934,
+              3.2933690770834882
+            ],
+            "estimate": 2.8463844628725257,
+            "pair_keys": [
+              "seed_42/gaussian_0p050",
+              "seed_42/gaussian_0p100",
+              "seed_42/rotation",
+              "seed_43/gaussian_0p050",
+              "seed_43/gaussian_0p100",
+              "seed_43/rotation"
+            ],
+            "pairing_unit": "seed\u00d7condition",
+            "schema_version": "metricdb.paired-bootstrap.v1",
+            "statistic": "log_ratio"
+          },
+          "recall_delta": {
+            "bootstrap_samples": 10000,
+            "bootstrap_seed": 20260715,
+            "ci95": [
+              -0.046940104166666684,
+              -0.03662109374999991
+            ],
+            "estimate": -0.04147135416666664,
+            "pair_keys": [
+              "seed_42/gaussian_0p050",
+              "seed_42/gaussian_0p100",
+              "seed_42/rotation",
+              "seed_43/gaussian_0p050",
+              "seed_43/gaussian_0p100",
+              "seed_43/rotation"
+            ],
+            "pairing_unit": "seed\u00d7condition",
+            "schema_version": "metricdb.paired-bootstrap.v1",
+            "statistic": "difference"
+          }
+        }
+      ],
+      "evaluated_pair_size": 16667,
+      "label": "25k",
+      "pair_count": 6,
+      "pair_keys": [
+        "seed_42/gaussian_0p050",
+        "seed_42/gaussian_0p100",
+        "seed_42/rotation",
+        "seed_43/gaussian_0p050",
+        "seed_43/gaussian_0p100",
+        "seed_43/rotation"
+      ],
+      "repair_input": "practical_repair",
+      "source_manifest": "results/scaling_25k_compact.json",
+      "source_manifest_sha256": "ef18cacbe78b88bcd205a66a08dadd159ea4b284324253ddf600c7b516643edb",
+      "source_scale": 25000
+    },
+    {
+      "comparisons": [
+        {
+          "baseline": "indexed_cross_knn/random_direct",
+          "candidate": "indexed_cross_knn/bounded_n8_c2",
+          "integration_ratio": {
+            "bootstrap_samples": 10000,
+            "bootstrap_seed": 20260715,
+            "ci95": [
+              0.7827185417816815,
+              1.0278215961035873
+            ],
+            "estimate": 0.9123039307452354,
+            "pair_keys": [
+              "seed_42/gaussian_0p100",
+              "seed_42/rotation",
+              "seed_43/gaussian_0p100",
+              "seed_43/rotation",
+              "seed_44/gaussian_0p100",
+              "seed_44/rotation"
+            ],
+            "pairing_unit": "seed\u00d7condition",
+            "schema_version": "metricdb.paired-bootstrap.v1",
+            "statistic": "log_ratio"
+          },
+          "recall_delta": {
+            "bootstrap_samples": 10000,
+            "bootstrap_seed": 20260715,
+            "ci95": [
+              0.05364583333333334,
+              0.059309895833333376
+            ],
+            "estimate": 0.05634765625000002,
+            "pair_keys": [
+              "seed_42/gaussian_0p100",
+              "seed_42/rotation",
+              "seed_43/gaussian_0p100",
+              "seed_43/rotation",
+              "seed_44/gaussian_0p100",
+              "seed_44/rotation"
+            ],
+            "pairing_unit": "seed\u00d7condition",
+            "schema_version": "metricdb.paired-bootstrap.v1",
+            "statistic": "difference"
+          }
+        },
+        {
+          "baseline": "full_rebuild_hnsw",
+          "candidate": "indexed_cross_knn/bounded_n8_c2",
+          "integration_ratio": {
+            "bootstrap_samples": 10000,
+            "bootstrap_seed": 20260715,
+            "ci95": [
+              1.1485553771650978,
+              1.3542696169497932
+            ],
+            "estimate": 1.2333071431139224,
+            "pair_keys": [
+              "seed_42/gaussian_0p100",
+              "seed_42/rotation",
+              "seed_43/gaussian_0p100",
+              "seed_43/rotation",
+              "seed_44/gaussian_0p100",
+              "seed_44/rotation"
+            ],
+            "pairing_unit": "seed\u00d7condition",
+            "schema_version": "metricdb.paired-bootstrap.v1",
+            "statistic": "log_ratio"
+          },
+          "recall_delta": {
+            "bootstrap_samples": 10000,
+            "bootstrap_seed": 20260715,
+            "ci95": [
+              -0.13714192708333334,
+              -0.11383463541666665
+            ],
+            "estimate": -0.12516276041666666,
+            "pair_keys": [
+              "seed_42/gaussian_0p100",
+              "seed_42/rotation",
+              "seed_43/gaussian_0p100",
+              "seed_43/rotation",
+              "seed_44/gaussian_0p100",
+              "seed_44/rotation"
+            ],
+            "pairing_unit": "seed\u00d7condition",
+            "schema_version": "metricdb.paired-bootstrap.v1",
+            "statistic": "difference"
+          }
+        },
+        {
+          "baseline": "indexed_cross_knn/random_direct",
+          "candidate": "indexed_cross_knn/unlimited_join1",
+          "integration_ratio": {
+            "bootstrap_samples": 10000,
+            "bootstrap_seed": 20260715,
+            "ci95": [
+              1.1252158499406943,
+              1.6961431732177525
+            ],
+            "estimate": 1.3718899994332643,
+            "pair_keys": [
+              "seed_42/gaussian_0p100",
+              "seed_42/rotation",
+              "seed_43/gaussian_0p100",
+              "seed_43/rotation",
+              "seed_44/gaussian_0p100",
+              "seed_44/rotation"
+            ],
+            "pairing_unit": "seed\u00d7condition",
+            "schema_version": "metricdb.paired-bootstrap.v1",
+            "statistic": "log_ratio"
+          },
+          "recall_delta": {
+            "bootstrap_samples": 10000,
+            "bootstrap_seed": 20260715,
+            "ci95": [
+              0.08385416666666667,
+              0.0910807291666667
+            ],
+            "estimate": 0.08743489583333335,
+            "pair_keys": [
+              "seed_42/gaussian_0p100",
+              "seed_42/rotation",
+              "seed_43/gaussian_0p100",
+              "seed_43/rotation",
+              "seed_44/gaussian_0p100",
+              "seed_44/rotation"
+            ],
+            "pairing_unit": "seed\u00d7condition",
+            "schema_version": "metricdb.paired-bootstrap.v1",
+            "statistic": "difference"
+          }
+        },
+        {
+          "baseline": "full_rebuild_hnsw",
+          "candidate": "indexed_cross_knn/unlimited_join1",
+          "integration_ratio": {
+            "bootstrap_samples": 10000,
+            "bootstrap_seed": 20260715,
+            "ci95": [
+              1.702474868742416,
+              2.0782071536525852
+            ],
+            "estimate": 1.854603141395526,
+            "pair_keys": [
+              "seed_42/gaussian_0p100",
+              "seed_42/rotation",
+              "seed_43/gaussian_0p100",
+              "seed_43/rotation",
+              "seed_44/gaussian_0p100",
+              "seed_44/rotation"
+            ],
+            "pairing_unit": "seed\u00d7condition",
+            "schema_version": "metricdb.paired-bootstrap.v1",
+            "statistic": "log_ratio"
+          },
+          "recall_delta": {
+            "bootstrap_samples": 10000,
+            "bootstrap_seed": 20260715,
+            "ci95": [
+              -0.10696614583333329,
+              -0.08157552083333335
+            ],
+            "estimate": -0.09407552083333333,
+            "pair_keys": [
+              "seed_42/gaussian_0p100",
+              "seed_42/rotation",
+              "seed_43/gaussian_0p100",
+              "seed_43/rotation",
+              "seed_44/gaussian_0p100",
+              "seed_44/rotation"
+            ],
+            "pairing_unit": "seed\u00d7condition",
+            "schema_version": "metricdb.paired-bootstrap.v1",
+            "statistic": "difference"
+          }
+        }
+      ],
+      "evaluated_pair_size": 33334,
+      "label": "50k",
+      "pair_count": 6,
+      "pair_keys": [
+        "seed_42/gaussian_0p100",
+        "seed_42/rotation",
+        "seed_43/gaussian_0p100",
+        "seed_43/rotation",
+        "seed_44/gaussian_0p100",
+        "seed_44/rotation"
+      ],
+      "repair_input": "no_repair",
+      "source_manifest": "results/cycle21_50k_compact.json",
+      "source_manifest_sha256": "ed472b86fc6ad6db50dacf359e1ab4803ef5e85977dccbb00a569ad48708f72d",
+      "source_scale": 50000
+    }
+  ],
+  "schema_version": "metricdb.scaling-confidence-intervals.v1",
+  "scope_caveat": "10k/25k use practical-repair inputs; 50k uses raw level-0 no-repair inputs, so these are stage-specific intervals rather than a homogeneous scaling curve",
+  "status": "complete",
+  "validation": {
+    "errors": [],
+    "pair_count_per_scale": [
+      6,
+      6,
+      6
+    ],
+    "scale_count": 3,
+    "valid": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": "metricdb.cycle22.v1",
+  "baseline_commit": "fbb6fda",
+  "backends": ["faiss_hnsw", "external_graph"],
+  "index": {"m": 16, "ef_construction": 200, "ef_search": 64},
+  "query_benchmark": {"warmup_queries": 20, "repetitions": 5, "faiss_threads": 1},
+  "output": {"root": "data/phase4_cycle22"}
+}

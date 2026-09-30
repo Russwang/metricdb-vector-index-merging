@@ -1,0 +1,10 @@
+{
+  "profile": "formal_experiment",
+  "description": "Stage 21 isolated 50k three-seed input template.",
+  "data": {"num_samples": 50000, "dimension": 128},
+  "subsets": {"count": 3},
+  "random_seed": 42,
+  "transformations": {"types": ["identity", "orthogonal", "general_linear"], "general_linear_condition_number": 10.0},
+  "search": {"k": 10, "m": 16, "ef_construction": 200, "ef_search": 64, "brute_force_batch_size": 128},
+  "stages": {"backend_probe": false, "run_tests": false, "brute_force_baseline": false, "hnsw_rebuild_baseline": false}
+}

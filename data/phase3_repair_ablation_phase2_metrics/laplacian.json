@@ -1,0 +1,1830 @@
+{
+  "batch": "laplacian",
+  "conditions": [
+    "laplacian_0p010",
+    "laplacian_0p050",
+    "laplacian_0p100"
+  ],
+  "generated_timestamp": "2026-07-10T15:36:49.639404+00:00",
+  "graph_kind": "raw_level0",
+  "phase3_config": "configs/phase3_repair_ablation_no_repair_laplacian.json",
+  "record_count": 60,
+  "records": [
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 14.90464100393001,
+        "distance_computation_count": 8332586,
+        "graph_extraction_seconds": 0.6326361580286175,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 23.680500347050838,
+        "total_compile_and_repair_seconds": 24.335013427073136,
+        "vector_transformation_seconds": 0.0218769219936803
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.3986442262739598,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.49952698520222844,
+        "removed_edge_ratio": 0.3979312762973352,
+        "retained_edge_ratio": 0.6020687237026648
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8984375,
+        "recall_at_10": 0.8804687500000001,
+        "recall_at_50": 0.81515625
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/laplacian_0p010/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6326361580286175,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6545130800222978,
+        "vector_transformation_seconds": 0.0218769219936803
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7637213651238897,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8984375,
+        "recall_at_10": 0.8921875000000001,
+        "recall_at_50": 0.8339062500000001
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/laplacian_0p010/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 15.059996708063409,
+        "distance_computation_count": 5048264,
+        "graph_extraction_seconds": 0.5826318230247125,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 20.719752982025966,
+        "total_compile_and_repair_seconds": 21.321644890122116,
+        "vector_transformation_seconds": 0.01926008507143706
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.4001168497312456,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.5021373011609166,
+        "removed_edge_ratio": 0.399626080860014,
+        "retained_edge_ratio": 0.600373919139986
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8828125,
+        "recall_at_10": 0.8742187500000002,
+        "recall_at_50": 0.8028125
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/laplacian_0p010/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.5826318230247125,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6018919080961496,
+        "vector_transformation_seconds": 0.01926008507143706
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7619069876139285,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9453125,
+        "recall_at_10": 0.89375,
+        "recall_at_50": 0.8382812500000001
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/laplacian_0p010/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 14.867381068994291,
+        "distance_computation_count": 10933172,
+        "graph_extraction_seconds": 0.5838444390101358,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 25.55810618691612,
+        "total_compile_and_repair_seconds": 26.163254247861914,
+        "vector_transformation_seconds": 0.021303621935658157
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.4242402992052361,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.4884799084465101,
+        "removed_edge_ratio": 0.42338709677419356,
+        "retained_edge_ratio": 0.5766129032258065
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8984375,
+        "recall_at_10": 0.8695312500000001,
+        "recall_at_50": 0.81328125
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/laplacian_0p050/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.5838444390101358,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.605148060945794,
+        "vector_transformation_seconds": 0.021303621935658157
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7637213651238897,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.90625,
+        "recall_at_10": 0.8765625000000001,
+        "recall_at_50": 0.82890625
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/laplacian_0p050/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 15.144481298979372,
+        "distance_computation_count": 5482410,
+        "graph_extraction_seconds": 0.6310564180603251,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 21.38255082606338,
+        "total_compile_and_repair_seconds": 22.03087011014577,
+        "vector_transformation_seconds": 0.017262866022065282
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.4250993222715588,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.49455182481751825,
+        "removed_edge_ratio": 0.4245734984809535,
+        "retained_edge_ratio": 0.5754265015190465
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8828125,
+        "recall_at_10": 0.8609375000000001,
+        "recall_at_50": 0.8059375000000001
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/laplacian_0p050/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6310564180603251,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6483192840823904,
+        "vector_transformation_seconds": 0.017262866022065282
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7619069876139285,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.953125,
+        "recall_at_10": 0.8843750000000001,
+        "recall_at_50": 0.8331250000000001
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/laplacian_0p050/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 15.199770665029064,
+        "distance_computation_count": 12447427,
+        "graph_extraction_seconds": 0.6377403179649264,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 26.82348015892785,
+        "total_compile_and_repair_seconds": 27.482184908818454,
+        "vector_transformation_seconds": 0.020964431925676763
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.48147498831229546,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.4670769158911244,
+        "removed_edge_ratio": 0.48055165965404395,
+        "retained_edge_ratio": 0.5194483403459561
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8984375,
+        "recall_at_10": 0.8789062500000001,
+        "recall_at_50": 0.80640625
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/laplacian_0p100/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6377403179649264,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6587047498906031,
+        "vector_transformation_seconds": 0.020964431925676763
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7637213651238897,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8984375,
+        "recall_at_10": 0.8734375000000001,
+        "recall_at_50": 0.8146875
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/laplacian_0p100/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 15.12765744398348,
+        "distance_computation_count": 10461462,
+        "graph_extraction_seconds": 0.5973517469828948,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 25.306268624961376,
+        "total_compile_and_repair_seconds": 25.919940323918127,
+        "vector_transformation_seconds": 0.016319951973855495
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.48373451741060997,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.46486322401373015,
+        "removed_edge_ratio": 0.48290488431876605,
+        "retained_edge_ratio": 0.5170951156812339
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.921875,
+        "recall_at_10": 0.8617187500000001,
+        "recall_at_50": 0.8071875
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/laplacian_0p100/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.5973517469828948,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6136716989567503,
+        "vector_transformation_seconds": 0.016319951973855495
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7619069876139285,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.90625,
+        "recall_at_10": 0.88828125,
+        "recall_at_50": 0.8182812500000001
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/laplacian_0p100/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 15.778781159897335,
+        "distance_computation_count": 5062391,
+        "graph_extraction_seconds": 0.578385031898506,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 21.58538797800429,
+        "total_compile_and_repair_seconds": 22.192069266806357,
+        "vector_transformation_seconds": 0.02829625690355897
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.39619085292783096,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.5071110439221798,
+        "removed_edge_ratio": 0.3957022024176566,
+        "retained_edge_ratio": 0.6042977975823435
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9140625,
+        "recall_at_10": 0.8578125000000001,
+        "recall_at_50": 0.81234375
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/laplacian_0p010/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.578385031898506,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.606681288802065,
+        "vector_transformation_seconds": 0.02829625690355897
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7633651731800677,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9140625,
+        "recall_at_10": 0.875,
+        "recall_at_50": 0.8417187500000001
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/laplacian_0p010/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 15.26391318300739,
+        "distance_computation_count": 4781163,
+        "graph_extraction_seconds": 0.6020493599353358,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 20.578135682968423,
+        "total_compile_and_repair_seconds": 21.19924499792978,
+        "vector_transformation_seconds": 0.01905995502602309
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.3905587892898719,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.5078194088899232,
+        "removed_edge_ratio": 0.390093131548312,
+        "retained_edge_ratio": 0.609906868451688
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9296875,
+        "recall_at_10": 0.8710937500000001,
+        "recall_at_50": 0.801875
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/laplacian_0p010/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6020493599353358,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6211093149613589,
+        "vector_transformation_seconds": 0.01905995502602309
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7633760186263097,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.921875,
+        "recall_at_10": 0.9046875000000001,
+        "recall_at_50": 0.8400000000000001
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/laplacian_0p010/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 14.495076879044063,
+        "distance_computation_count": 6117850,
+        "graph_extraction_seconds": 0.6201614750316367,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 21.27892322302796,
+        "total_compile_and_repair_seconds": 21.922669986030087,
+        "vector_transformation_seconds": 0.023585287970490754
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.4209956835871601,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.4996046511627907,
+        "removed_edge_ratio": 0.42042559132529,
+        "retained_edge_ratio": 0.57957440867471
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.921875,
+        "recall_at_10": 0.859375,
+        "recall_at_50": 0.8084375
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/laplacian_0p050/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6201614750316367,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6437467630021274,
+        "vector_transformation_seconds": 0.023585287970490754
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7633651731800677,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9140625,
+        "recall_at_10": 0.8796875000000002,
+        "recall_at_50": 0.83515625
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/laplacian_0p050/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 14.911743641016074,
+        "distance_computation_count": 6965793,
+        "graph_extraction_seconds": 0.6097959349863231,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 22.36551490391139,
+        "total_compile_and_repair_seconds": 22.99098833987955,
+        "vector_transformation_seconds": 0.01567750098183751
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.41870779976717115,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.5015473392744957,
+        "removed_edge_ratio": 0.4180791618160652,
+        "retained_edge_ratio": 0.5819208381839348
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.921875,
+        "recall_at_10": 0.8625,
+        "recall_at_50": 0.7996875000000001
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/laplacian_0p050/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6097959349863231,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6254734359681606,
+        "vector_transformation_seconds": 0.01567750098183751
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7633760186263097,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9453125,
+        "recall_at_10": 0.8945312500000001,
+        "recall_at_50": 0.83
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/laplacian_0p050/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 14.825174071011133,
+        "distance_computation_count": 9268138,
+        "graph_extraction_seconds": 0.5972309870412573,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 24.37161534000188,
+        "total_compile_and_repair_seconds": 24.991601365967654,
+        "vector_transformation_seconds": 0.022755038924515247
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.48206536282300383,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.4704008556547619,
+        "removed_edge_ratio": 0.48130911798582915,
+        "retained_edge_ratio": 0.5186908820141709
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.921875,
+        "recall_at_10": 0.8625,
+        "recall_at_50": 0.80375
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/laplacian_0p100/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.5972309870412573,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6199860259657726,
+        "vector_transformation_seconds": 0.022755038924515247
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7633651731800677,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9453125,
+        "recall_at_10": 0.8875000000000001,
+        "recall_at_50": 0.8225
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/laplacian_0p100/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 15.244313686038367,
+        "distance_computation_count": 8498217,
+        "graph_extraction_seconds": 0.6099077919498086,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 24.269696842995472,
+        "total_compile_and_repair_seconds": 24.896118494914845,
+        "vector_transformation_seconds": 0.016513859969563782
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.4785448195576251,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.47046369325981247,
+        "removed_edge_ratio": 0.47782305005820724,
+        "retained_edge_ratio": 0.5221769499417928
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.953125,
+        "recall_at_10": 0.8679687500000001,
+        "recall_at_50": 0.8023437499999999
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/laplacian_0p100/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6099077919498086,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6264216519193724,
+        "vector_transformation_seconds": 0.016513859969563782
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7633760186263097,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.953125,
+        "recall_at_10": 0.8875000000000002,
+        "recall_at_50": 0.8187500000000001
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/laplacian_0p100/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 15.633170626009814,
+        "distance_computation_count": 6442903,
+        "graph_extraction_seconds": 0.5909893430070952,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 22.87238418404013,
+        "total_compile_and_repair_seconds": 23.49348951911088,
+        "vector_transformation_seconds": 0.03011599206365645
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.399488538832514,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.503431052189338,
+        "removed_edge_ratio": 0.3988930018566741,
+        "retained_edge_ratio": 0.6011069981433259
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9765625,
+        "recall_at_10": 0.8492187500000001,
+        "recall_at_50": 0.8015625000000001
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/laplacian_0p010/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.5909893430070952,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6211053350707516,
+        "vector_transformation_seconds": 0.03011599206365645
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.767542067097166,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9765625,
+        "recall_at_10": 0.8843750000000001,
+        "recall_at_50": 0.8284374999999999
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/laplacian_0p010/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 19.851242242963053,
+        "distance_computation_count": 4803628,
+        "graph_extraction_seconds": 0.6867428409168497,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 26.489803093019873,
+        "total_compile_and_repair_seconds": 27.19770282797981,
+        "vector_transformation_seconds": 0.02115689404308796
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.3826664660470607,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.5236062425525515,
+        "removed_edge_ratio": 0.38220349772566814,
+        "retained_edge_ratio": 0.6177965022743319
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8984375,
+        "recall_at_10": 0.8820312500000002,
+        "recall_at_50": 0.81328125
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/laplacian_0p010/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6867428409168497,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.7078997349599376,
+        "vector_transformation_seconds": 0.02115689404308796
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7639903239620829,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9140625,
+        "recall_at_10": 0.9078125000000001,
+        "recall_at_50": 0.84125
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/laplacian_0p010/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 14.68389930902049,
+        "distance_computation_count": 7075104,
+        "graph_extraction_seconds": 0.5763427149504423,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 22.359853388974443,
+        "total_compile_and_repair_seconds": 22.961650779936463,
+        "vector_transformation_seconds": 0.02545467601157725
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.42309982834522464,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.49659824252255197,
+        "removed_edge_ratio": 0.4224692597825706,
+        "retained_edge_ratio": 0.5775307402174293
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.90625,
+        "recall_at_10": 0.8546875,
+        "recall_at_50": 0.8043750000000001
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/laplacian_0p050/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.5763427149504423,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6017973909620196,
+        "vector_transformation_seconds": 0.02545467601157725
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.767542067097166,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9453125,
+        "recall_at_10": 0.8773437500000001,
+        "recall_at_50": 0.82671875
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/laplacian_0p050/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 19.602295826072805,
+        "distance_computation_count": 6135208,
+        "graph_extraction_seconds": 0.7533577559515834,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 27.439846670953557,
+        "total_compile_and_repair_seconds": 28.2104216478765,
+        "vector_transformation_seconds": 0.017217220971360803
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.4100626164654684,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.5175828243568388,
+        "removed_edge_ratio": 0.4094954802717624,
+        "retained_edge_ratio": 0.5905045197282376
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8828125,
+        "recall_at_10": 0.8757812500000002,
+        "recall_at_50": 0.80890625
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/laplacian_0p050/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.7533577559515834,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.7705749769229442,
+        "vector_transformation_seconds": 0.017217220971360803
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7639903239620829,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9140625,
+        "recall_at_10": 0.8882812500000001,
+        "recall_at_50": 0.8292187500000001
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/laplacian_0p050/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 15.604979110066779,
+        "distance_computation_count": 7705290,
+        "graph_extraction_seconds": 0.6389900719514117,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 23.590604244964197,
+        "total_compile_and_repair_seconds": 24.25373920192942,
+        "vector_transformation_seconds": 0.02414488501381129
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.4817543818676507,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.47386661998949764,
+        "removed_edge_ratio": 0.48107710452257785,
+        "retained_edge_ratio": 0.5189228954774221
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.90625,
+        "recall_at_10": 0.8632812500000002,
+        "recall_at_50": 0.810625
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/laplacian_0p100/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6389900719514117,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.663134956965223,
+        "vector_transformation_seconds": 0.02414488501381129
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.767542067097166,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9609375,
+        "recall_at_10": 0.878125,
+        "recall_at_50": 0.81703125
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/laplacian_0p100/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 15.380279868957587,
+        "distance_computation_count": 7538792,
+        "graph_extraction_seconds": 0.7673337849555537,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 23.03943291096948,
+        "total_compile_and_repair_seconds": 23.822947195963934,
+        "vector_transformation_seconds": 0.01618050003889948
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.46654475167536663,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.4968076246877024,
+        "removed_edge_ratio": 0.46588502181738217,
+        "retained_edge_ratio": 0.5341149781826179
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8828125,
+        "recall_at_10": 0.8710937500000002,
+        "recall_at_50": 0.8048437500000001
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/laplacian_0p100/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.7673337849555537,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.7835142849944532,
+        "vector_transformation_seconds": 0.01618050003889948
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7639903239620829,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9296875,
+        "recall_at_10": 0.8859375,
+        "recall_at_50": 0.80796875
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/laplacian_0p100/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 15.197485542972572,
+        "distance_computation_count": 4245966,
+        "graph_extraction_seconds": 0.5798313569976017,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 20.260362299042754,
+        "total_compile_and_repair_seconds": 20.866387043031864,
+        "vector_transformation_seconds": 0.026193386991508305
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.39779154956077944,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.49914779072091026,
+        "removed_edge_ratio": 0.39736820442866044,
+        "retained_edge_ratio": 0.6026317955713395
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8984375,
+        "recall_at_10": 0.8648437500000001,
+        "recall_at_50": 0.7943749999999999
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/laplacian_0p010/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.5798313569976017,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.60602474398911,
+        "vector_transformation_seconds": 0.026193386991508305
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.762256429554194,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9140625,
+        "recall_at_10": 0.8867187500000002,
+        "recall_at_50": 0.830625
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/laplacian_0p010/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 15.007652726955712,
+        "distance_computation_count": 5196785,
+        "graph_extraction_seconds": 0.6016895609209314,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 21.186164081911556,
+        "total_compile_and_repair_seconds": 21.80996204179246,
+        "vector_transformation_seconds": 0.022108398959971964
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.388020044283883,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.5141113298312231,
+        "removed_edge_ratio": 0.3875189371868081,
+        "retained_edge_ratio": 0.6124810628131919
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9296875,
+        "recall_at_10": 0.8679687500000001,
+        "recall_at_50": 0.8059375000000001
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/laplacian_0p010/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6016895609209314,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6237979598809034,
+        "vector_transformation_seconds": 0.022108398959971964
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7619158606223051,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9140625,
+        "recall_at_10": 0.8992187500000002,
+        "recall_at_50": 0.8345312500000001
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/laplacian_0p010/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 14.21128667704761,
+        "distance_computation_count": 5773240,
+        "graph_extraction_seconds": 0.5873761120019481,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 20.5201275839936,
+        "total_compile_and_repair_seconds": 21.130654155975208,
+        "vector_transformation_seconds": 0.02315045997966081
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.4245093312322871,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.4861078463635936,
+        "removed_edge_ratio": 0.4239566306431318,
+        "retained_edge_ratio": 0.5760433693568682
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9296875,
+        "recall_at_10": 0.8687500000000001,
+        "recall_at_50": 0.79234375
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/laplacian_0p050/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.5873761120019481,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6105265719816089,
+        "vector_transformation_seconds": 0.02315045997966081
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.762256429554194,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.953125,
+        "recall_at_10": 0.8960937500000001,
+        "recall_at_50": 0.8240625
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/laplacian_0p050/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 14.81869097694289,
+        "distance_computation_count": 6294015,
+        "graph_extraction_seconds": 0.6147388940444216,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 21.64878993097227,
+        "total_compile_and_repair_seconds": 22.28211202402599,
+        "vector_transformation_seconds": 0.018583199009299278
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.41424076447966435,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.5059399021663172,
+        "removed_edge_ratio": 0.413658081808647,
+        "retained_edge_ratio": 0.586341918191353
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.90625,
+        "recall_at_10": 0.8710937500000001,
+        "recall_at_50": 0.80828125
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/laplacian_0p050/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6147388940444216,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6333220930537209,
+        "vector_transformation_seconds": 0.018583199009299278
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7619158606223051,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9140625,
+        "recall_at_10": 0.8914062500000002,
+        "recall_at_50": 0.82640625
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/laplacian_0p050/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 15.415024341084063,
+        "distance_computation_count": 9220481,
+        "graph_extraction_seconds": 0.6683319229632616,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 24.497405801084824,
+        "total_compile_and_repair_seconds": 25.18861991201993,
+        "vector_transformation_seconds": 0.02288218797184527
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.4840246010560109,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.464741894924854,
+        "removed_edge_ratio": 0.4832719874877994,
+        "retained_edge_ratio": 0.5167280125122006
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9296875,
+        "recall_at_10": 0.8523437500000001,
+        "recall_at_50": 0.80015625
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/laplacian_0p100/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6683319229632616,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6912141109351069,
+        "vector_transformation_seconds": 0.02288218797184527
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.762256429554194,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9140625,
+        "recall_at_10": 0.8671875000000001,
+        "recall_at_50": 0.8053125
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/laplacian_0p100/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 15.170326221035793,
+        "distance_computation_count": 7932631,
+        "graph_extraction_seconds": 0.6662335119908676,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 23.199626013054512,
+        "total_compile_and_repair_seconds": 23.882672657142393,
+        "vector_transformation_seconds": 0.016813132097013295
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.47742687332478734,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.4747697073449091,
+        "removed_edge_ratio": 0.47673930777298684,
+        "retained_edge_ratio": 0.5232606922270132
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.890625,
+        "recall_at_10": 0.8523437500000002,
+        "recall_at_50": 0.7959375000000001
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/laplacian_0p100/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6662335119908676,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6830466440878808,
+        "vector_transformation_seconds": 0.016813132097013295
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7619158606223051,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9453125,
+        "recall_at_10": 0.8812500000000001,
+        "recall_at_50": 0.8145312499999999
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/laplacian_0p100/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 15.967000133008696,
+        "distance_computation_count": 8152410,
+        "graph_extraction_seconds": 0.6013096080860123,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 24.12012192606926,
+        "total_compile_and_repair_seconds": 24.74546730914153,
+        "vector_transformation_seconds": 0.02403577498625964
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.39622131301730623,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.5059448282344096,
+        "removed_edge_ratio": 0.39551589541008275,
+        "retained_edge_ratio": 0.6044841045899172
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8828125,
+        "recall_at_10": 0.87109375,
+        "recall_at_50": 0.8121875000000001
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/laplacian_0p010/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6013096080860123,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6253453830722719,
+        "vector_transformation_seconds": 0.02403577498625964
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 0.9997000599880024,
+        "reciprocal_edge_ratio": 0.7670240782543266,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9453125,
+        "recall_at_10": 0.8992187500000002,
+        "recall_at_50": 0.84296875
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/laplacian_0p010/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 15.363880792981945,
+        "distance_computation_count": 5201688,
+        "graph_extraction_seconds": 0.6325078399386257,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 21.48255443200469,
+        "total_compile_and_repair_seconds": 22.133450547931716,
+        "vector_transformation_seconds": 0.018388275988399982
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.3904585617993225,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.5116008470829164,
+        "removed_edge_ratio": 0.38995797389957976,
+        "retained_edge_ratio": 0.6100420261004202
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8515625,
+        "recall_at_10": 0.8601562500000002,
+        "recall_at_50": 0.81
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/laplacian_0p010/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6325078399386257,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6508961159270257,
+        "vector_transformation_seconds": 0.018388275988399982
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7664815655595525,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9296875,
+        "recall_at_10": 0.8882812500000001,
+        "recall_at_50": 0.8387500000000001
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/laplacian_0p010/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 15.496571104973555,
+        "distance_computation_count": 9626753,
+        "graph_extraction_seconds": 0.5857397980289534,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 25.422694787965156,
+        "total_compile_and_repair_seconds": 26.02892411092762,
+        "vector_transformation_seconds": 0.02048952493350953
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.421875,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.49845517662676364,
+        "removed_edge_ratio": 0.42108728367193377,
+        "retained_edge_ratio": 0.5789127163280662
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.875,
+        "recall_at_10": 0.87421875,
+        "recall_at_50": 0.8040625
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/laplacian_0p050/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.5857397980289534,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6062293229624629,
+        "vector_transformation_seconds": 0.02048952493350953
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 0.9997000599880024,
+        "reciprocal_edge_ratio": 0.7670240782543266,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9296875,
+        "recall_at_10": 0.9000000000000001,
+        "recall_at_50": 0.83546875
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/laplacian_0p050/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 17.838875212008134,
+        "distance_computation_count": 6282754,
+        "graph_extraction_seconds": 0.6155147789977491,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 27.9105571329128,
+        "total_compile_and_repair_seconds": 28.542583002825268,
+        "vector_transformation_seconds": 0.016511090914718807
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.4177464231248327,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.5009249671316711,
+        "removed_edge_ratio": 0.41716434417164344,
+        "retained_edge_ratio": 0.5828356558283566
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.828125,
+        "recall_at_10": 0.8671875000000001,
+        "recall_at_50": 0.8131250000000001
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/laplacian_0p050/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6155147789977491,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6320258699124679,
+        "vector_transformation_seconds": 0.016511090914718807
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7664815655595525,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9453125,
+        "recall_at_10": 0.8882812500000001,
+        "recall_at_50": 0.8343750000000001
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/laplacian_0p050/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 20.19435571297072,
+        "distance_computation_count": 13205773,
+        "graph_extraction_seconds": 0.5992360899690539,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 35.42619630997069,
+        "total_compile_and_repair_seconds": 36.04518819891382,
+        "vector_transformation_seconds": 0.019755798974074423
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.4823528028592927,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.47501703117291927,
+        "removed_edge_ratio": 0.4813887321294206,
+        "retained_edge_ratio": 0.5186112678705794
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.921875,
+        "recall_at_10": 0.85546875,
+        "recall_at_50": 0.80734375
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/laplacian_0p100/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.5992360899690539,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6189918889431283,
+        "vector_transformation_seconds": 0.019755798974074423
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 0.9997000599880024,
+        "reciprocal_edge_ratio": 0.7670240782543266,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.875,
+        "recall_at_10": 0.86875,
+        "recall_at_50": 0.8146875
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/laplacian_0p100/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 15.196542593999766,
+        "distance_computation_count": 7547988,
+        "graph_extraction_seconds": 0.799463392002508,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 22.71217032102868,
+        "total_compile_and_repair_seconds": 23.528838186059147,
+        "vector_transformation_seconds": 0.017204473027959466
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.47423136474231364,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.48322397505700593,
+        "removed_edge_ratio": 0.47356779473567795,
+        "retained_edge_ratio": 0.5264322052643221
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.890625,
+        "recall_at_10": 0.8617187500000001,
+        "recall_at_50": 0.8109375000000001
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/laplacian_0p100/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "laplacian",
+      "condition": "laplacian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.799463392002508,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.8166678650304675,
+        "vector_transformation_seconds": 0.017204473027959466
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7664815655595525,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9296875,
+        "recall_at_10": 0.8601562500000002,
+        "recall_at_50": 0.81296875
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/laplacian_0p100/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    }
+  ],
+  "schema_version": 1,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "subsets": [
+    "D_A",
+    "D_B"
+  ],
+  "variants": [
+    "practical_repair",
+    "no_repair"
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "schema_version": "metricdb.loaded-base-aggregate.v1",
+  "cases": [
+    {
+      "case": "seed_42/gaussian_0p100/A_to_B.json",
+      "metrics": {
+        "schema_version": "metricdb.loaded-base.v1",
+        "semantic_scope": "prebuilt shared-space base; not a reused local-space physical index",
+        "repetitions_requested": 5,
+        "offline_base_build_seconds": 2.749746743007563,
+        "serialized_base_bytes": 5533035,
+        "load": {
+          "samples_seconds": [
+            0.006411619950085878,
+            0.009177442057989538,
+            0.005771266994997859,
+            0.007026146980933845,
+            0.005701315007172525
+          ],
+          "median_seconds": 0.006411619950085878
+        },
+        "add_only": {
+          "samples_seconds": [
+            4.8039669749559835,
+            5.811587790958583,
+            5.805439649964683,
+            4.92270284704864,
+            5.442918109940365
+          ],
+          "median_seconds": 5.442918109940365
+        },
+        "load_plus_add": {
+          "samples_seconds": [
+            4.810378594906069,
+            5.820765233016573,
+            5.811210916959681,
+            4.929728994029574,
+            5.4486194249475375
+          ],
+          "median_seconds": 5.4486194249475375
+        },
+        "rebuild_base_plus_add": {
+          "samples_seconds": [
+            8.883855206076987,
+            10.189813057077117,
+            8.663839146029204,
+            8.539375005988404,
+            8.661319250008091
+          ],
+          "median_seconds": 8.663839146029204
+        },
+        "backend_limitation": null,
+        "final_id_count": 16667,
+        "final_ids_complete": true
+      }
+    },
+    {
+      "case": "seed_42/gaussian_0p100/B_to_A.json",
+      "metrics": {
+        "schema_version": "metricdb.loaded-base.v1",
+        "semantic_scope": "prebuilt shared-space base; not a reused local-space physical index",
+        "repetitions_requested": 5,
+        "offline_base_build_seconds": 3.6192459519952536,
+        "serialized_base_bytes": 5533695,
+        "load": {
+          "samples_seconds": [
+            0.004532277001999319,
+            0.008392923045903444,
+            0.00711699400562793,
+            0.005432942998595536,
+            0.0048337760381400585
+          ],
+          "median_seconds": 0.005432942998595536
+        },
+        "add_only": {
+          "samples_seconds": [
+            5.275992686976679,
+            5.539781812927686,
+            5.477758798049763,
+            4.78676807298325,
+            4.628583126002923
+          ],
+          "median_seconds": 5.275992686976679
+        },
+        "load_plus_add": {
+          "samples_seconds": [
+            5.280524963978678,
+            5.548174735973589,
+            5.484875792055391,
+            4.792201015981846,
+            4.633416902041063
+          ],
+          "median_seconds": 5.280524963978678
+        },
+        "rebuild_base_plus_add": {
+          "samples_seconds": [
+            8.634750255965628,
+            9.179331441991962,
+            8.784016836085357,
+            7.665439017000608,
+            9.05983510101214
+          ],
+          "median_seconds": 8.784016836085357
+        },
+        "backend_limitation": null,
+        "final_id_count": 16667,
+        "final_ids_complete": true
+      }
+    },
+    {
+      "case": "seed_42/rotation/A_to_B.json",
+      "metrics": {
+        "schema_version": "metricdb.loaded-base.v1",
+        "semantic_scope": "prebuilt shared-space base; not a reused local-space physical index",
+        "repetitions_requested": 5,
+        "offline_base_build_seconds": 3.2973645880119875,
+        "serialized_base_bytes": 5533035,
+        "load": {
+          "samples_seconds": [
+            0.007011582958512008,
+            0.0096941280644387,
+            0.012137977057136595,
+            0.006907069939188659,
+            0.005693761049769819
+          ],
+          "median_seconds": 0.007011582958512008
+        },
+        "add_only": {
+          "samples_seconds": [
+            4.898410922032781,
+            6.005742771085352,
+            5.6849906540010124,
+            5.101939255022444,
+            5.1711070369929075
+          ],
+          "median_seconds": 5.1711070369929075
+        },
+        "load_plus_add": {
+          "samples_seconds": [
+            4.905422504991293,
+            6.01543689914979,
+            5.697128631058149,
+            5.1088463249616325,
+            5.176800798042677
+          ],
+          "median_seconds": 5.176800798042677
+        },
+        "rebuild_base_plus_add": {
+          "samples_seconds": [
+            9.44873883202672,
+            10.03358157502953,
+            8.453320713946596,
+            8.956137956003658,
+            8.828269339050166
+          ],
+          "median_seconds": 8.956137956003658
+        },
+        "backend_limitation": null,
+        "final_id_count": 16667,
+        "final_ids_complete": true
+      }
+    },
+    {
+      "case": "seed_42/rotation/B_to_A.json",
+      "metrics": {
+        "schema_version": "metricdb.loaded-base.v1",
+        "semantic_scope": "prebuilt shared-space base; not a reused local-space physical index",
+        "repetitions_requested": 5,
+        "offline_base_build_seconds": 3.608652979019098,
+        "serialized_base_bytes": 5533695,
+        "load": {
+          "samples_seconds": [
+            0.0043772319331765175,
+            0.00851138005964458,
+            0.005528366076759994,
+            0.005170218995772302,
+            0.005568554042838514
+          ],
+          "median_seconds": 0.005528366076759994
+        },
+        "add_only": {
+          "samples_seconds": [
+            5.3107738989638165,
+            5.567251889035106,
+            5.3084277670132,
+            4.5761169079924,
+            5.104137899936177
+          ],
+          "median_seconds": 5.3084277670132
+        },
+        "load_plus_add": {
+          "samples_seconds": [
+            5.315151130896993,
+            5.57576326909475,
+            5.31395613308996,
+            4.5812871269881725,
+            5.109706453979015
+          ],
+          "median_seconds": 5.31395613308996
+        },
+        "rebuild_base_plus_add": {
+          "samples_seconds": [
+            8.97768198302947,
+            9.386264779022895,
+            8.584040589048527,
+            7.866690077004023,
+            8.576644028071314
+          ],
+          "median_seconds": 8.584040589048527
+        },
+        "backend_limitation": null,
+        "final_id_count": 16667,
+        "final_ids_complete": true
+      }
+    },
+    {
+      "case": "seed_43/gaussian_0p100/A_to_B.json",
+      "metrics": {
+        "schema_version": "metricdb.loaded-base.v1",
+        "semantic_scope": "prebuilt shared-space base; not a reused local-space physical index",
+        "repetitions_requested": 5,
+        "offline_base_build_seconds": 2.811477213050239,
+        "serialized_base_bytes": 5533035,
+        "load": {
+          "samples_seconds": [
+            0.006897483952343464,
+            0.009666636004112661,
+            0.0057619280414655805,
+            0.005987360025756061,
+            0.005618873983621597
+          ],
+          "median_seconds": 0.005987360025756061
+        },
+        "add_only": {
+          "samples_seconds": [
+            4.859364263014868,
+            5.754849437973462,
+            5.694281470961869,
+            4.930250125937164,
+            5.459227893035859
+          ],
+          "median_seconds": 5.459227893035859
+        },
+        "load_plus_add": {
+          "samples_seconds": [
+            4.866261746967211,
+            5.764516073977575,
+            5.700043399003334,
+            4.93623748596292,
+            5.4648467670194805
+          ],
+          "median_seconds": 5.4648467670194805
+        },
+        "rebuild_base_plus_add": {
+          "samples_seconds": [
+            9.017429100931622,
+            10.215426618000492,
+            8.737598470062949,
+            8.557463653036393,
+            8.706194964936003
+          ],
+          "median_seconds": 8.737598470062949
+        },
+        "backend_limitation": null,
+        "final_id_count": 16667,
+        "final_ids_complete": true
+      }
+    },
+    {
+      "case": "seed_43/gaussian_0p100/B_to_A.json",
+      "metrics": {
+        "schema_version": "metricdb.loaded-base.v1",
+        "semantic_scope": "prebuilt shared-space base; not a reused local-space physical index",
+        "repetitions_requested": 5,
+        "offline_base_build_seconds": 3.5809665519045666,
+        "serialized_base_bytes": 5533695,
+        "load": {
+          "samples_seconds": [
+            0.004150809021666646,
+            0.00837705994490534,
+            0.006846437929198146,
+            0.005516318022273481,
+            0.004849295015446842
+          ],
+          "median_seconds": 0.005516318022273481
+        },
+        "add_only": {
+          "samples_seconds": [
+            5.39338568598032,
+            5.619823544984683,
+            5.473834787029773,
+            4.753797142067924,
+            4.714914318989031
+          ],
+          "median_seconds": 5.39338568598032
+        },
+        "load_plus_add": {
+          "samples_seconds": [
+            5.397536495001987,
+            5.628200604929589,
+            5.480681224958971,
+            4.759313460090198,
+            4.719763614004478
+          ],
+          "median_seconds": 5.397536495001987
+        },
+        "rebuild_base_plus_add": {
+          "samples_seconds": [
+            8.524468594929203,
+            9.169167523970827,
+            8.749436896992847,
+            7.748812420060858,
+            8.988675829954445
+          ],
+          "median_seconds": 8.749436896992847
+        },
+        "backend_limitation": null,
+        "final_id_count": 16667,
+        "final_ids_complete": true
+      }
+    },
+    {
+      "case": "seed_43/rotation/A_to_B.json",
+      "metrics": {
+        "schema_version": "metricdb.loaded-base.v1",
+        "semantic_scope": "prebuilt shared-space base; not a reused local-space physical index",
+        "repetitions_requested": 5,
+        "offline_base_build_seconds": 3.386911408044398,
+        "serialized_base_bytes": 5533035,
+        "load": {
+          "samples_seconds": [
+            0.006507971091195941,
+            0.009666203055530787,
+            0.005393556086346507,
+            0.005578213953413069,
+            0.006013256032019854
+          ],
+          "median_seconds": 0.006013256032019854
+        },
+        "add_only": {
+          "samples_seconds": [
+            4.976231704931706,
+            6.106918622041121,
+            5.219020536052994,
+            5.076031195931137,
+            5.181806523003615
+          ],
+          "median_seconds": 5.181806523003615
+        },
+        "load_plus_add": {
+          "samples_seconds": [
+            4.982739676022902,
+            6.116584825096652,
+            5.224414092139341,
+            5.08160940988455,
+            5.187819779035635
+          ],
+          "median_seconds": 5.187819779035635
+        },
+        "rebuild_base_plus_add": {
+          "samples_seconds": [
+            9.847744197933935,
+            9.9745761299273,
+            8.46544760093093,
+            9.057532983017154,
+            8.721164464950562
+          ],
+          "median_seconds": 9.057532983017154
+        },
+        "backend_limitation": null,
+        "final_id_count": 16667,
+        "final_ids_complete": true
+      }
+    },
+    {
+      "case": "seed_43/rotation/B_to_A.json",
+      "metrics": {
+        "schema_version": "metricdb.loaded-base.v1",
+        "semantic_scope": "prebuilt shared-space base; not a reused local-space physical index",
+        "repetitions_requested": 5,
+        "offline_base_build_seconds": 3.9670902920188382,
+        "serialized_base_bytes": 5533695,
+        "load": {
+          "samples_seconds": [
+            0.004557079984806478,
+            0.00875812501180917,
+            0.0053054989548400044,
+            0.006918434984982014,
+            0.0051150351064279675
+          ],
+          "median_seconds": 0.0053054989548400044
+        },
+        "add_only": {
+          "samples_seconds": [
+            5.0849350889911875,
+            5.477110545965843,
+            5.402057276922278,
+            4.5446158710401505,
+            5.39683680399321
+          ],
+          "median_seconds": 5.39683680399321
+        },
+        "load_plus_add": {
+          "samples_seconds": [
+            5.089492168975994,
+            5.485868670977652,
+            5.407362775877118,
+            4.5515343060251325,
+            5.401951839099638
+          ],
+          "median_seconds": 5.401951839099638
+        },
+        "rebuild_base_plus_add": {
+          "samples_seconds": [
+            9.180860129068606,
+            9.263804299989715,
+            8.167907177004963,
+            8.019426802988164,
+            7.879727805964649
+          ],
+          "median_seconds": 8.167907177004963
+        },
+        "backend_limitation": null,
+        "final_id_count": 16667,
+        "final_ids_complete": true
+      }
+    }
+  ]
+}

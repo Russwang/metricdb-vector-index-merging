@@ -1,0 +1,50 @@
+{
+  "profile": "smoke_test",
+  "description": "Fast local validation of the complete Phase 2 pipeline.",
+  "phase1": {
+    "transformation_dir": "data/phase1_transformations",
+    "subset_dir": "data/phase1_subsets",
+    "source_config": "configs/phase1_smoke.json"
+  },
+  "subsets": ["D_A", "D_B", "D_C"],
+  "transformations": {
+    "exact": [
+      "identity",
+      "rotation",
+      "reflection",
+      "translation",
+      "orthogonal_translation"
+    ],
+    "include_general_linear_stress": true
+  },
+  "noise": {
+    "families": ["gaussian", "laplacian"],
+    "levels": [0.0, 0.01, 0.05, 0.1]
+  },
+  "graph": {
+    "kinds": ["raw_level0", "query_derived"],
+    "degree_budget_policy": "original_degree",
+    "candidate_search_k": 24,
+    "force_weak_connectivity": true
+  },
+  "search": {
+    "m": 16,
+    "ef_construction": 40,
+    "ef_search": 32,
+    "evaluation_k": [1, 10, 50],
+    "brute_force_batch_size": 128
+  },
+  "queries": {
+    "corpus_point_count_per_subset": 32,
+    "held_out_count_per_subset": 32
+  },
+  "seeds": {
+    "data": [42],
+    "transformation": 142,
+    "noise": 242,
+    "query": 342
+  },
+  "stages": {
+    "run_tests": false
+  }
+}

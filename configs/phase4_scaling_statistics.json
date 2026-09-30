@@ -1,0 +1,35 @@
+{
+  "schema_version": "metricdb.scaling-statistics.v1",
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 20260715,
+  "pairing_unit": "data_seed_x_condition",
+  "baseline": "indexed_cross_knn/random_direct",
+  "candidates": ["indexed_cross_knn/bounded_n8_c2", "indexed_cross_knn/unlimited_join1"],
+  "scales": [
+    {
+      "label": "10k",
+      "source_scale": 10000,
+      "evaluated_pair_size": 6667,
+      "repair_input": "practical_repair",
+      "manifest": "results/scaling_10k_compact.json",
+      "comparisons": ["indexed_cross_knn/random_direct"]
+    },
+    {
+      "label": "25k",
+      "source_scale": 25000,
+      "evaluated_pair_size": 16667,
+      "repair_input": "practical_repair",
+      "manifest": "results/scaling_25k_compact.json",
+      "comparisons": ["indexed_cross_knn/random_direct", "full_rebuild_hnsw"]
+    },
+    {
+      "label": "50k",
+      "source_scale": 50000,
+      "evaluated_pair_size": 33334,
+      "repair_input": "no_repair",
+      "manifest": "results/cycle21_50k_compact.json",
+      "comparisons": ["indexed_cross_knn/random_direct", "full_rebuild_hnsw"]
+    }
+  ],
+  "scope_caveat": "10k/25k use practical-repair inputs; 50k uses raw level-0 no-repair inputs, so these are stage-specific intervals rather than a homogeneous scaling curve"
+}

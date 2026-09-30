@@ -1,0 +1,25 @@
+{
+  "schema_version": "metricdb.cycle24.v1",
+  "baseline_commit": "fbb6fda",
+  "corpus_size": 15000,
+  "subset_sizes": {"D_A": 5000, "D_B": 5000, "D_C": 5000},
+  "seeds": [42, 43],
+  "conditions": ["rotation", "gaussian_0.1"],
+  "orders": [["D_A", "D_B", "D_C"], ["D_A", "D_C", "D_B"], ["D_B", "D_C", "D_A"]],
+  "methods": ["full_rebuild", "sequential_incremental", "random_direct", "bounded_n8_c2", "join1"],
+  "integration_repetitions": 5,
+  "prepared_input": {
+    "source_root": "data/phase3_stage20_25k/phase2_phase1_seeds",
+    "source_subdir": "phase1_subsets",
+    "corpus_rows_per_subset": 5000,
+    "held_out_queries_per_subset": 256,
+    "dimension": 128,
+    "m": 16,
+    "ef_construction": 200,
+    "ef_search": 64,
+    "transformation_seed": 142,
+    "noise_seed": 242
+  },
+  "second_merge": {"preserve_existing_edges": true, "portal_budget": 8, "cross_k": 2, "allow_full_cross_scan": false},
+  "output": {"prepared_root": "data/phase4_cycle24_prepared", "root": "data/phase4_cycle24"}
+}

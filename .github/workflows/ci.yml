@@ -1,0 +1,29 @@
+name: Research validation
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    env:
+      OMP_NUM_THREADS: "1"
+      OPENBLAS_NUM_THREADS: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: pip
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Validate frozen evidence
+        run: python data/validate_final_evidence.py --require-complete
+      - name: Run research-path tests
+        run: python -m unittest discover tests
+      - name: Run interface smoke check
+        run: python data/run_cycle22.py --output scratch/cycle22_smoke.json

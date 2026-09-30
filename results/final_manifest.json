@@ -1,0 +1,117 @@
+{
+  "environment": {
+    "faiss": "1.14.3",
+    "faiss_threads": 8,
+    "git_commit": "271ccc7555dc0ff8fdc6e5e1083e75380b8ef459",
+    "numpy": "2.2.6",
+    "platform": "macOS-15.7.4-x86_64-i386-64bit",
+    "python": "3.10.11"
+  },
+  "experiments": [
+    {
+      "artifacts": [
+        {
+          "bytes": 10235,
+          "path": "results/cycle21_50k_compact.json",
+          "sha256": "ed472b86fc6ad6db50dacf359e1ab4803ef5e85977dccbb00a569ad48708f72d"
+        }
+      ],
+      "config": "configs/phase3_stage21_50k_validation.json",
+      "cycle": 21,
+      "source": "formal synthetic 50k stopping gate; release-sized compact summary with source checksums",
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 61943,
+          "path": "results/cycle22_smoke.json",
+          "sha256": "540c3313498ad03e866c1c4274af710b4cc0029ee46c15c11c637b9c94c468f8"
+        }
+      ],
+      "config": "configs/cycle22_system_interface.json",
+      "cycle": 22,
+      "source": "deterministic interface acceptance",
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 22329,
+          "path": "results/cycle23_query_cost.csv",
+          "sha256": "381640df2e37dff91da470b0c390c1f981d74c69b730a6418afa557a002ec185"
+        },
+        {
+          "bytes": 13017,
+          "path": "results/cycle23_loaded_base.json",
+          "sha256": "9fc0b527e3fdf7ce68a953c3c3fcdc04617d9b2a7b2dc0363e381e9c486352e3"
+        }
+      ],
+      "config": "configs/cycle23_query_cost_formal.json",
+      "cycle": 23,
+      "source": "formal frozen Stage 20 artifacts",
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 35432,
+          "path": "results/cycle24_formal.json",
+          "sha256": "87749547fb78cdf7063ae00f8f2f16edf9295836ae88142fbf1ae57645f266d0"
+        }
+      ],
+      "config": "configs/cycle24_sequential_formal.json",
+      "cycle": 24,
+      "source": "formal 15k three-subset sequential evaluation; two seeds, two conditions, three orders, five methods",
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 1675,
+          "path": "results/glove_ingest_manifest.json",
+          "sha256": "41c00eb5909bb1f982ec3e4466e725b6879fb2ac1d9c3bece7b900ea0e86155d"
+        },
+        {
+          "bytes": 19557,
+          "path": "results/cycle25_formal.json",
+          "sha256": "23392066d4376e884642cffd24ec0f72682d870e31cf7d75d8726ba6103f2cef"
+        },
+        {
+          "bytes": 1961,
+          "path": "results/final_plot_rows.json",
+          "sha256": "7c15026309f0dc3bfb88bfce86227e89c012e303e31d31f7a975eb3714301deb"
+        }
+      ],
+      "config": "configs/cycle25_glove_formal.json",
+      "cycle": 25,
+      "source": "formal Stanford GloVe 25k evaluation and generated cross-cycle dissertation rows; fixed split, two transformation seeds, two conditions, six methods, paired bootstrap",
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 17416,
+          "path": "results/scaling_confidence_intervals.json",
+          "sha256": "06e349c8b8d80186e83eda40c7b6bc6ff9b5ebf49c3009498cf41fdedeed8542"
+        }
+      ],
+      "config": "configs/phase4_scaling_statistics.json",
+      "cycle": 26,
+      "source": "paired bootstrap confidence intervals for frozen 10k, 25k, and 50k synthetic evidence",
+      "status": "complete"
+    }
+  ],
+  "schema_version": "metricdb.final-evidence.v1",
+  "scope_notes": {
+    "incremental_legacy": "rebuild-base-plus-add",
+    "loaded_base": "prebuilt shared-space base only",
+    "repair_wins": {
+      "local_or_dual": "0/55",
+      "sampled_union": "55/55"
+    },
+    "stage17_100k": "exploratory single-seed",
+    "stage21_100k": "no gated multi-seed 100k run",
+    "topology": "stored level-0 topology; not a complete multi-layer HNSW physical merge"
+  }
+}

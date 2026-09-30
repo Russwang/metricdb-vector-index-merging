@@ -1,0 +1,5 @@
+# Frozen evidence is validated by byte size and SHA-256 on every platform.
+results/** -text
+dissertation_assets/** -text
+data/phase3_repair_ablation_summary/** -text
+data/phase3_repair_ablation_phase2_metrics/** -text

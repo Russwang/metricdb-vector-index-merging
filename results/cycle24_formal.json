@@ -1,0 +1,1151 @@
+{
+  "aggregates": [
+    {
+      "case_count": 12,
+      "max_recall_at_10": 0.6893229166666667,
+      "mean_cross_subset_recall_at_10": 0.6749716676311729,
+      "mean_query_ms": 0.09988790180967853,
+      "mean_recall_at_10": 0.6785047743055556,
+      "median_integration_seconds": 4.437063824560028,
+      "method": "full_rebuild",
+      "min_recall_at_10": 0.6631510416666666
+    },
+    {
+      "case_count": 12,
+      "max_recall_at_10": 0.6902343749999998,
+      "mean_cross_subset_recall_at_10": 0.6802900149498456,
+      "mean_recall_at_10": 0.6818142361111111,
+      "median_first_add_seconds": 1.647184620029293,
+      "median_integration_seconds": 4.535007078957278,
+      "median_second_add_seconds": 1.8587281224899925,
+      "median_second_to_first_add_ratio": 1.1178040890458165,
+      "method": "sequential_incremental",
+      "min_recall_at_10": 0.6700520833333333
+    },
+    {
+      "case_count": 12,
+      "max_recall_at_10": 0.31106770833333336,
+      "mean_cross_subset_recall_at_10": 0.29999552193562606,
+      "mean_first_merge_candidate_distance_count": 1024.0,
+      "mean_query_ms": 4.48382834688093,
+      "mean_recall_at_10": 0.3011935763888889,
+      "mean_second_merge_candidate_distance_count": 2048.0,
+      "median_integration_seconds": 4.3605524829472415,
+      "median_second_merge_seconds": 2.642529937031213,
+      "method": "random_direct",
+      "min_recall_at_10": 0.28880208333333335,
+      "second_to_first_candidate_work_ratio": 2.0
+    },
+    {
+      "case_count": 12,
+      "max_recall_at_10": 0.35247395833333334,
+      "mean_cross_subset_recall_at_10": 0.33917371961805554,
+      "mean_first_merge_candidate_distance_count": 1282.0,
+      "mean_query_ms": 4.384633366309269,
+      "mean_recall_at_10": 0.33755425347222223,
+      "mean_second_merge_candidate_distance_count": 2564.0,
+      "median_integration_seconds": 4.269209114543628,
+      "median_second_merge_seconds": 2.86927112552803,
+      "method": "bounded_n8_c2",
+      "min_recall_at_10": 0.3216145833333333,
+      "second_to_first_candidate_work_ratio": 2.0000194099378885
+    },
+    {
+      "case_count": 12,
+      "max_recall_at_10": 0.37916666666666665,
+      "mean_cross_subset_recall_at_10": 0.36150651558366403,
+      "mean_first_merge_candidate_distance_count": 2333.3333333333335,
+      "mean_query_ms": 4.341166828023941,
+      "mean_recall_at_10": 0.36131727430555555,
+      "mean_second_merge_candidate_distance_count": 4666.666666666667,
+      "median_integration_seconds": 4.764056860993151,
+      "median_second_merge_seconds": 2.8828830840066075,
+      "method": "join1",
+      "min_recall_at_10": 0.3463541666666667,
+      "second_to_first_candidate_work_ratio": 2.088710206662848
+    }
+  ],
+  "cases": [
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.6651212177579365,
+      "integration_seconds_median": 4.173937960993499,
+      "method": "full_rebuild",
+      "metrics": "data/phase4_cycle24/seed_42/rotation/D_A_D_B_D_C/full_rebuild/metrics.json",
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "recall_at_10": 0.6717447916666667,
+      "seed": 42
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.6649083374669312,
+      "integration_seconds_median": 3.883069878909737,
+      "method": "sequential_incremental",
+      "metrics": "data/phase4_cycle24/seed_42/rotation/D_A_D_B_D_C/sequential_incremental/metrics.json",
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "recall_at_10": 0.6709635416666666,
+      "seed": 42
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.31838159308862435,
+      "integration_seconds_median": 3.9539520730031654,
+      "method": "random_direct",
+      "metrics": "data/phase4_cycle24/seed_42/rotation/D_A_D_B_D_C/random_direct/metrics.json",
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "recall_at_10": 0.31106770833333336,
+      "seed": 42
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.3548249421296296,
+      "integration_seconds_median": 3.9171240320429206,
+      "method": "bounded_n8_c2",
+      "metrics": "data/phase4_cycle24/seed_42/rotation/D_A_D_B_D_C/bounded_n8_c2/metrics.json",
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "recall_at_10": 0.35247395833333334,
+      "seed": 42
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.3811807622354497,
+      "integration_seconds_median": 3.9842509189620614,
+      "method": "join1",
+      "metrics": "data/phase4_cycle24/seed_42/rotation/D_A_D_B_D_C/join1/metrics.json",
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "recall_at_10": 0.3747395833333333,
+      "seed": 42
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.6703378182870371,
+      "integration_seconds_median": 4.342727571958676,
+      "method": "full_rebuild",
+      "metrics": "data/phase4_cycle24/seed_42/rotation/D_A_D_C_D_B/full_rebuild/metrics.json",
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "recall_at_10": 0.66796875,
+      "seed": 42
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.6715649801587301,
+      "integration_seconds_median": 4.725625045946799,
+      "method": "sequential_incremental",
+      "metrics": "data/phase4_cycle24/seed_42/rotation/D_A_D_C_D_B/sequential_incremental/metrics.json",
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "recall_at_10": 0.6752604166666666,
+      "seed": 42
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.31092303240740743,
+      "integration_seconds_median": 3.925906730000861,
+      "method": "random_direct",
+      "metrics": "data/phase4_cycle24/seed_42/rotation/D_A_D_C_D_B/random_direct/metrics.json",
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "recall_at_10": 0.3048177083333333,
+      "seed": 42
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.3548249421296296,
+      "integration_seconds_median": 3.9954921640455723,
+      "method": "bounded_n8_c2",
+      "metrics": "data/phase4_cycle24/seed_42/rotation/D_A_D_C_D_B/bounded_n8_c2/metrics.json",
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "recall_at_10": 0.35247395833333334,
+      "seed": 42
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.3811807622354497,
+      "integration_seconds_median": 4.15431275498122,
+      "method": "join1",
+      "metrics": "data/phase4_cycle24/seed_42/rotation/D_A_D_C_D_B/join1/metrics.json",
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "recall_at_10": 0.3747395833333333,
+      "seed": 42
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.6606398809523809,
+      "integration_seconds_median": 4.3115753419697285,
+      "method": "full_rebuild",
+      "metrics": "data/phase4_cycle24/seed_42/rotation/D_B_D_C_D_A/full_rebuild/metrics.json",
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "recall_at_10": 0.6631510416666666,
+      "seed": 42
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.6678473255621693,
+      "integration_seconds_median": 4.149652172927745,
+      "method": "sequential_incremental",
+      "metrics": "data/phase4_cycle24/seed_42/rotation/D_B_D_C_D_A/sequential_incremental/metrics.json",
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "recall_at_10": 0.6700520833333333,
+      "seed": 42
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.3081493882275132,
+      "integration_seconds_median": 4.28177117893938,
+      "method": "random_direct",
+      "metrics": "data/phase4_cycle24/seed_42/rotation/D_B_D_C_D_A/random_direct/metrics.json",
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "recall_at_10": 0.3048177083333334,
+      "seed": 42
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.3482995411706349,
+      "integration_seconds_median": 4.193299698992632,
+      "method": "bounded_n8_c2",
+      "metrics": "data/phase4_cycle24/seed_42/rotation/D_B_D_C_D_A/bounded_n8_c2/metrics.json",
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "recall_at_10": 0.34531249999999997,
+      "seed": 42
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.37803457754629627,
+      "integration_seconds_median": 5.375095659052022,
+      "method": "join1",
+      "metrics": "data/phase4_cycle24/seed_42/rotation/D_B_D_C_D_A/join1/metrics.json",
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "recall_at_10": 0.37916666666666665,
+      "seed": 42
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.685572193287037,
+      "integration_seconds_median": 3.951014822931029,
+      "method": "full_rebuild",
+      "metrics": "data/phase4_cycle24/seed_42/gaussian_0p100/D_A_D_B_D_C/full_rebuild/metrics.json",
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "recall_at_10": 0.6854166666666668,
+      "seed": 42
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.6928648933531746,
+      "integration_seconds_median": 4.157931945985183,
+      "method": "sequential_incremental",
+      "metrics": "data/phase4_cycle24/seed_42/gaussian_0p100/D_A_D_B_D_C/sequential_incremental/metrics.json",
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "recall_at_10": 0.6861979166666666,
+      "seed": 42
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.3146288029100529,
+      "integration_seconds_median": 3.82252863899339,
+      "method": "random_direct",
+      "metrics": "data/phase4_cycle24/seed_42/gaussian_0p100/D_A_D_B_D_C/random_direct/metrics.json",
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "recall_at_10": 0.3084635416666667,
+      "seed": 42
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.35104993386243394,
+      "integration_seconds_median": 4.211521378019825,
+      "method": "bounded_n8_c2",
+      "metrics": "data/phase4_cycle24/seed_42/gaussian_0p100/D_A_D_B_D_C/bounded_n8_c2/metrics.json",
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "recall_at_10": 0.3373697916666667,
+      "seed": 42
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.36078559027777785,
+      "integration_seconds_median": 4.091808956000023,
+      "method": "join1",
+      "metrics": "data/phase4_cycle24/seed_42/gaussian_0p100/D_A_D_B_D_C/join1/metrics.json",
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "recall_at_10": 0.35625,
+      "seed": 42
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.6915674603174603,
+      "integration_seconds_median": 4.8359290399821475,
+      "method": "full_rebuild",
+      "metrics": "data/phase4_cycle24/seed_42/gaussian_0p100/D_A_D_C_D_B/full_rebuild/metrics.json",
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "recall_at_10": 0.6872395833333332,
+      "seed": 42
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.6831313037367724,
+      "integration_seconds_median": 6.06412374204956,
+      "method": "sequential_incremental",
+      "metrics": "data/phase4_cycle24/seed_42/gaussian_0p100/D_A_D_C_D_B/sequential_incremental/metrics.json",
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "recall_at_10": 0.6841145833333333,
+      "seed": 42
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.31094163359788357,
+      "integration_seconds_median": 5.750337496981956,
+      "method": "random_direct",
+      "metrics": "data/phase4_cycle24/seed_42/gaussian_0p100/D_A_D_C_D_B/random_direct/metrics.json",
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "recall_at_10": 0.3022135416666667,
+      "seed": 42
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.35104993386243394,
+      "integration_seconds_median": 5.986955204047263,
+      "method": "bounded_n8_c2",
+      "metrics": "data/phase4_cycle24/seed_42/gaussian_0p100/D_A_D_C_D_B/bounded_n8_c2/metrics.json",
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "recall_at_10": 0.3373697916666667,
+      "seed": 42
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.36078559027777785,
+      "integration_seconds_median": 4.389268636004999,
+      "method": "join1",
+      "metrics": "data/phase4_cycle24/seed_42/gaussian_0p100/D_A_D_C_D_B/join1/metrics.json",
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "recall_at_10": 0.35625,
+      "seed": 42
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.6913824818121693,
+      "integration_seconds_median": 6.828726093983278,
+      "method": "full_rebuild",
+      "metrics": "data/phase4_cycle24/seed_42/gaussian_0p100/D_B_D_C_D_A/full_rebuild/metrics.json",
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "recall_at_10": 0.6893229166666667,
+      "seed": 42
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.6940212673611109,
+      "integration_seconds_median": 4.2127605370478705,
+      "method": "sequential_incremental",
+      "metrics": "data/phase4_cycle24/seed_42/gaussian_0p100/D_B_D_C_D_A/sequential_incremental/metrics.json",
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "recall_at_10": 0.6876302083333332,
+      "seed": 42
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.29659339864417994,
+      "integration_seconds_median": 4.86025944002904,
+      "method": "random_direct",
+      "metrics": "data/phase4_cycle24/seed_42/gaussian_0p100/D_B_D_C_D_A/random_direct/metrics.json",
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "recall_at_10": 0.29075520833333335,
+      "seed": 42
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.3342639095568783,
+      "integration_seconds_median": 4.059838925022632,
+      "method": "bounded_n8_c2",
+      "metrics": "data/phase4_cycle24/seed_42/gaussian_0p100/D_B_D_C_D_A/bounded_n8_c2/metrics.json",
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "recall_at_10": 0.33033854166666665,
+      "seed": 42
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.36062334656084655,
+      "integration_seconds_median": 5.009079300099984,
+      "method": "join1",
+      "metrics": "data/phase4_cycle24/seed_42/gaussian_0p100/D_B_D_C_D_A/join1/metrics.json",
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "recall_at_10": 0.353515625,
+      "seed": 42
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.6629314442791006,
+      "integration_seconds_median": 3.88568889698945,
+      "method": "full_rebuild",
+      "metrics": "data/phase4_cycle24/seed_43/rotation/D_A_D_B_D_C/full_rebuild/metrics.json",
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "recall_at_10": 0.678125,
+      "seed": 43
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.6771727223875662,
+      "integration_seconds_median": 4.344389111967757,
+      "method": "sequential_incremental",
+      "metrics": "data/phase4_cycle24/seed_43/rotation/D_A_D_B_D_C/sequential_incremental/metrics.json",
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "recall_at_10": 0.6809895833333334,
+      "seed": 43
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.2862816220238095,
+      "integration_seconds_median": 3.661311562056653,
+      "method": "random_direct",
+      "metrics": "data/phase4_cycle24/seed_43/rotation/D_A_D_B_D_C/random_direct/metrics.json",
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "recall_at_10": 0.30039062499999997,
+      "seed": 43
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.3333488343253968,
+      "integration_seconds_median": 3.953479793970473,
+      "method": "bounded_n8_c2",
+      "metrics": "data/phase4_cycle24/seed_43/rotation/D_A_D_B_D_C/bounded_n8_c2/metrics.json",
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "recall_at_10": 0.33828125000000003,
+      "seed": 43
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.35210606812169304,
+      "integration_seconds_median": 4.588677937048487,
+      "method": "join1",
+      "metrics": "data/phase4_cycle24/seed_43/rotation/D_A_D_B_D_C/join1/metrics.json",
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "recall_at_10": 0.36015625,
+      "seed": 43
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.6624281787367725,
+      "integration_seconds_median": 4.467074062093161,
+      "method": "full_rebuild",
+      "metrics": "data/phase4_cycle24/seed_43/rotation/D_A_D_C_D_B/full_rebuild/metrics.json",
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "recall_at_10": 0.67421875,
+      "seed": 43
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.6716393849206349,
+      "integration_seconds_median": 4.19262094295118,
+      "method": "sequential_incremental",
+      "metrics": "data/phase4_cycle24/seed_43/rotation/D_A_D_C_D_B/sequential_incremental/metrics.json",
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "recall_at_10": 0.6768229166666666,
+      "seed": 43
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.28877108134920637,
+      "integration_seconds_median": 4.687801346066408,
+      "method": "random_direct",
+      "metrics": "data/phase4_cycle24/seed_43/rotation/D_A_D_C_D_B/random_direct/metrics.json",
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "recall_at_10": 0.304296875,
+      "seed": 43
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.3333488343253968,
+      "integration_seconds_median": 5.1706744260154665,
+      "method": "bounded_n8_c2",
+      "metrics": "data/phase4_cycle24/seed_43/rotation/D_A_D_C_D_B/bounded_n8_c2/metrics.json",
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "recall_at_10": 0.33828125000000003,
+      "seed": 43
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.35210606812169304,
+      "integration_seconds_median": 5.153631663066335,
+      "method": "join1",
+      "metrics": "data/phase4_cycle24/seed_43/rotation/D_A_D_C_D_B/join1/metrics.json",
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "recall_at_10": 0.36015625,
+      "seed": 43
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.6692439649470899,
+      "integration_seconds_median": 5.199010230018757,
+      "method": "full_rebuild",
+      "metrics": "data/phase4_cycle24/seed_43/rotation/D_B_D_C_D_A/full_rebuild/metrics.json",
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "recall_at_10": 0.6766927083333334,
+      "seed": 43
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.6746481274801587,
+      "integration_seconds_median": 6.3573631750186905,
+      "method": "sequential_incremental",
+      "metrics": "data/phase4_cycle24/seed_43/rotation/D_B_D_C_D_A/sequential_incremental/metrics.json",
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "recall_at_10": 0.6826822916666666,
+      "seed": 43
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.3088815517526455,
+      "integration_seconds_median": 3.9114133999682963,
+      "method": "random_direct",
+      "metrics": "data/phase4_cycle24/seed_43/rotation/D_B_D_C_D_A/random_direct/metrics.json",
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "recall_at_10": 0.3092447916666667,
+      "seed": 43
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.35133050181878306,
+      "integration_seconds_median": 6.1101129580056295,
+      "method": "bounded_n8_c2",
+      "metrics": "data/phase4_cycle24/seed_43/rotation/D_B_D_C_D_A/bounded_n8_c2/metrics.json",
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "recall_at_10": 0.34934895833333335,
+      "seed": 43
+    },
+    {
+      "condition": "rotation",
+      "cross_subset_recall_at_10": 0.3750599371693122,
+      "integration_seconds_median": 5.285329208010808,
+      "method": "join1",
+      "metrics": "data/phase4_cycle24/seed_43/rotation/D_B_D_C_D_A/join1/metrics.json",
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "recall_at_10": 0.373046875,
+      "seed": 43
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.6835286458333333,
+      "integration_seconds_median": 4.407053587026894,
+      "method": "full_rebuild",
+      "metrics": "data/phase4_cycle24/seed_43/gaussian_0p100/D_A_D_B_D_C/full_rebuild/metrics.json",
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "recall_at_10": 0.6838541666666668,
+      "seed": 43
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.6900462962962962,
+      "integration_seconds_median": 5.023532485007308,
+      "method": "sequential_incremental",
+      "metrics": "data/phase4_cycle24/seed_43/gaussian_0p100/D_A_D_B_D_C/sequential_incremental/metrics.json",
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "recall_at_10": 0.6902343749999998,
+      "seed": 43
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.28089141038359783,
+      "integration_seconds_median": 4.5156099681044,
+      "method": "random_direct",
+      "metrics": "data/phase4_cycle24/seed_43/gaussian_0p100/D_A_D_B_D_C/random_direct/metrics.json",
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "recall_at_10": 0.29335937500000003,
+      "seed": 43
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.31438337053571425,
+      "integration_seconds_median": 4.34721069294028,
+      "method": "bounded_n8_c2",
+      "metrics": "data/phase4_cycle24/seed_43/gaussian_0p100/D_A_D_B_D_C/bounded_n8_c2/metrics.json",
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "recall_at_10": 0.3216145833333333,
+      "seed": 43
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.33829055059523805,
+      "integration_seconds_median": 4.464749780017883,
+      "method": "join1",
+      "metrics": "data/phase4_cycle24/seed_43/gaussian_0p100/D_A_D_B_D_C/join1/metrics.json",
+      "order": [
+        "D_A",
+        "D_B",
+        "D_C"
+      ],
+      "recall_at_10": 0.3463541666666667,
+      "seed": 43
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.6763398024140214,
+      "integration_seconds_median": 4.591601919964887,
+      "method": "full_rebuild",
+      "metrics": "data/phase4_cycle24/seed_43/gaussian_0p100/D_A_D_C_D_B/full_rebuild/metrics.json",
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "recall_at_10": 0.679296875,
+      "seed": 43
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.6891735904431217,
+      "integration_seconds_median": 6.288848822936416,
+      "method": "sequential_incremental",
+      "metrics": "data/phase4_cycle24/seed_43/gaussian_0p100/D_A_D_C_D_B/sequential_incremental/metrics.json",
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "recall_at_10": 0.6891927083333335,
+      "seed": 43
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.2873134713955026,
+      "integration_seconds_median": 5.91783245105762,
+      "method": "random_direct",
+      "metrics": "data/phase4_cycle24/seed_43/gaussian_0p100/D_A_D_C_D_B/random_direct/metrics.json",
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "recall_at_10": 0.29609375,
+      "seed": 43
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.31438337053571425,
+      "integration_seconds_median": 4.326896851067431,
+      "method": "bounded_n8_c2",
+      "metrics": "data/phase4_cycle24/seed_43/gaussian_0p100/D_A_D_C_D_B/bounded_n8_c2/metrics.json",
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "recall_at_10": 0.3216145833333333,
+      "seed": 43
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.33829055059523805,
+      "integration_seconds_median": 6.688385310932063,
+      "method": "join1",
+      "metrics": "data/phase4_cycle24/seed_43/gaussian_0p100/D_A_D_C_D_B/join1/metrics.json",
+      "order": [
+        "D_A",
+        "D_C",
+        "D_B"
+      ],
+      "recall_at_10": 0.3463541666666667,
+      "seed": 43
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.6805669229497354,
+      "integration_seconds_median": 4.950118337990716,
+      "method": "full_rebuild",
+      "metrics": "data/phase4_cycle24/seed_43/gaussian_0p100/D_B_D_C_D_A/full_rebuild/metrics.json",
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "recall_at_10": 0.6850260416666666,
+      "seed": 43
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.6864619502314815,
+      "integration_seconds_median": 4.910004900884815,
+      "method": "sequential_incremental",
+      "metrics": "data/phase4_cycle24/seed_43/gaussian_0p100/D_B_D_C_D_A/sequential_incremental/metrics.json",
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "recall_at_10": 0.6876302083333333,
+      "seed": 43
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.28818927744708994,
+      "integration_seconds_median": 4.439333786955103,
+      "method": "random_direct",
+      "metrics": "data/phase4_cycle24/seed_43/gaussian_0p100/D_B_D_C_D_A/random_direct/metrics.json",
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "recall_at_10": 0.28880208333333335,
+      "seed": 43
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.32897652116402115,
+      "integration_seconds_median": 5.317438868922181,
+      "method": "bounded_n8_c2",
+      "metrics": "data/phase4_cycle24/seed_43/gaussian_0p100/D_B_D_C_D_A/bounded_n8_c2/metrics.json",
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "recall_at_10": 0.326171875,
+      "seed": 43
+    },
+    {
+      "condition": "gaussian_0p100",
+      "cross_subset_recall_at_10": 0.35963438326719577,
+      "integration_seconds_median": 4.939435784937814,
+      "method": "join1",
+      "metrics": "data/phase4_cycle24/seed_43/gaussian_0p100/D_B_D_C_D_A/join1/metrics.json",
+      "order": [
+        "D_B",
+        "D_C",
+        "D_A"
+      ],
+      "recall_at_10": 0.35507812499999997,
+      "seed": 43
+    }
+  ],
+  "config": "configs/cycle24_sequential_formal.json",
+  "formal_manifest": "data/phase4_cycle24/manifest.json",
+  "order_effects": [
+    {
+      "condition": "gaussian_0p100",
+      "integration_seconds_max": 5.986955204047263,
+      "integration_seconds_min": 4.059838925022632,
+      "method": "bounded_n8_c2",
+      "order_count": 3,
+      "recall_max": 0.3373697916666667,
+      "recall_min": 0.33033854166666665,
+      "recall_range": 0.007031250000000044,
+      "seed": 42
+    },
+    {
+      "condition": "gaussian_0p100",
+      "integration_seconds_max": 6.828726093983278,
+      "integration_seconds_min": 3.951014822931029,
+      "method": "full_rebuild",
+      "order_count": 3,
+      "recall_max": 0.6893229166666667,
+      "recall_min": 0.6854166666666668,
+      "recall_range": 0.003906249999999889,
+      "seed": 42
+    },
+    {
+      "condition": "gaussian_0p100",
+      "integration_seconds_max": 5.009079300099984,
+      "integration_seconds_min": 4.091808956000023,
+      "method": "join1",
+      "order_count": 3,
+      "recall_max": 0.35625,
+      "recall_min": 0.353515625,
+      "recall_range": 0.002734375000000011,
+      "seed": 42
+    },
+    {
+      "condition": "gaussian_0p100",
+      "integration_seconds_max": 5.750337496981956,
+      "integration_seconds_min": 3.82252863899339,
+      "method": "random_direct",
+      "order_count": 3,
+      "recall_max": 0.3084635416666667,
+      "recall_min": 0.29075520833333335,
+      "recall_range": 0.017708333333333326,
+      "seed": 42
+    },
+    {
+      "condition": "gaussian_0p100",
+      "integration_seconds_max": 6.06412374204956,
+      "integration_seconds_min": 4.157931945985183,
+      "method": "sequential_incremental",
+      "order_count": 3,
+      "recall_max": 0.6876302083333332,
+      "recall_min": 0.6841145833333333,
+      "recall_range": 0.003515624999999911,
+      "seed": 42
+    },
+    {
+      "condition": "rotation",
+      "integration_seconds_max": 4.193299698992632,
+      "integration_seconds_min": 3.9171240320429206,
+      "method": "bounded_n8_c2",
+      "order_count": 3,
+      "recall_max": 0.35247395833333334,
+      "recall_min": 0.34531249999999997,
+      "recall_range": 0.00716145833333337,
+      "seed": 42
+    },
+    {
+      "condition": "rotation",
+      "integration_seconds_max": 4.342727571958676,
+      "integration_seconds_min": 4.173937960993499,
+      "method": "full_rebuild",
+      "order_count": 3,
+      "recall_max": 0.6717447916666667,
+      "recall_min": 0.6631510416666666,
+      "recall_range": 0.008593750000000067,
+      "seed": 42
+    },
+    {
+      "condition": "rotation",
+      "integration_seconds_max": 5.375095659052022,
+      "integration_seconds_min": 3.9842509189620614,
+      "method": "join1",
+      "order_count": 3,
+      "recall_max": 0.37916666666666665,
+      "recall_min": 0.3747395833333333,
+      "recall_range": 0.004427083333333359,
+      "seed": 42
+    },
+    {
+      "condition": "rotation",
+      "integration_seconds_max": 4.28177117893938,
+      "integration_seconds_min": 3.925906730000861,
+      "method": "random_direct",
+      "order_count": 3,
+      "recall_max": 0.31106770833333336,
+      "recall_min": 0.3048177083333333,
+      "recall_range": 0.006250000000000033,
+      "seed": 42
+    },
+    {
+      "condition": "rotation",
+      "integration_seconds_max": 4.725625045946799,
+      "integration_seconds_min": 3.883069878909737,
+      "method": "sequential_incremental",
+      "order_count": 3,
+      "recall_max": 0.6752604166666666,
+      "recall_min": 0.6700520833333333,
+      "recall_range": 0.005208333333333259,
+      "seed": 42
+    },
+    {
+      "condition": "gaussian_0p100",
+      "integration_seconds_max": 5.317438868922181,
+      "integration_seconds_min": 4.326896851067431,
+      "method": "bounded_n8_c2",
+      "order_count": 3,
+      "recall_max": 0.326171875,
+      "recall_min": 0.3216145833333333,
+      "recall_range": 0.004557291666666685,
+      "seed": 43
+    },
+    {
+      "condition": "gaussian_0p100",
+      "integration_seconds_max": 4.950118337990716,
+      "integration_seconds_min": 4.407053587026894,
+      "method": "full_rebuild",
+      "order_count": 3,
+      "recall_max": 0.6850260416666666,
+      "recall_min": 0.679296875,
+      "recall_range": 0.005729166666666563,
+      "seed": 43
+    },
+    {
+      "condition": "gaussian_0p100",
+      "integration_seconds_max": 6.688385310932063,
+      "integration_seconds_min": 4.464749780017883,
+      "method": "join1",
+      "order_count": 3,
+      "recall_max": 0.35507812499999997,
+      "recall_min": 0.3463541666666667,
+      "recall_range": 0.008723958333333282,
+      "seed": 43
+    },
+    {
+      "condition": "gaussian_0p100",
+      "integration_seconds_max": 5.91783245105762,
+      "integration_seconds_min": 4.439333786955103,
+      "method": "random_direct",
+      "order_count": 3,
+      "recall_max": 0.29609375,
+      "recall_min": 0.28880208333333335,
+      "recall_range": 0.007291666666666641,
+      "seed": 43
+    },
+    {
+      "condition": "gaussian_0p100",
+      "integration_seconds_max": 6.288848822936416,
+      "integration_seconds_min": 4.910004900884815,
+      "method": "sequential_incremental",
+      "order_count": 3,
+      "recall_max": 0.6902343749999998,
+      "recall_min": 0.6876302083333333,
+      "recall_range": 0.0026041666666665186,
+      "seed": 43
+    },
+    {
+      "condition": "rotation",
+      "integration_seconds_max": 6.1101129580056295,
+      "integration_seconds_min": 3.953479793970473,
+      "method": "bounded_n8_c2",
+      "order_count": 3,
+      "recall_max": 0.34934895833333335,
+      "recall_min": 0.33828125000000003,
+      "recall_range": 0.011067708333333315,
+      "seed": 43
+    },
+    {
+      "condition": "rotation",
+      "integration_seconds_max": 5.199010230018757,
+      "integration_seconds_min": 3.88568889698945,
+      "method": "full_rebuild",
+      "order_count": 3,
+      "recall_max": 0.678125,
+      "recall_min": 0.67421875,
+      "recall_range": 0.00390625,
+      "seed": 43
+    },
+    {
+      "condition": "rotation",
+      "integration_seconds_max": 5.285329208010808,
+      "integration_seconds_min": 4.588677937048487,
+      "method": "join1",
+      "order_count": 3,
+      "recall_max": 0.373046875,
+      "recall_min": 0.36015625,
+      "recall_range": 0.012890624999999989,
+      "seed": 43
+    },
+    {
+      "condition": "rotation",
+      "integration_seconds_max": 4.687801346066408,
+      "integration_seconds_min": 3.661311562056653,
+      "method": "random_direct",
+      "order_count": 3,
+      "recall_max": 0.3092447916666667,
+      "recall_min": 0.30039062499999997,
+      "recall_range": 0.008854166666666718,
+      "seed": 43
+    },
+    {
+      "condition": "rotation",
+      "integration_seconds_max": 6.3573631750186905,
+      "integration_seconds_min": 4.19262094295118,
+      "method": "sequential_incremental",
+      "order_count": 3,
+      "recall_max": 0.6826822916666666,
+      "recall_min": 0.6768229166666666,
+      "recall_range": 0.005859375,
+      "seed": 43
+    }
+  ],
+  "prepared_manifest": "data/phase4_cycle24_prepared/manifest.json",
+  "schema_version": "metricdb.cycle24-compact.v1",
+  "source_checksums": {
+    "config": "18820a64020345cf87839f575bdbceead13d5332893eb5053ff2de89fa39fa46",
+    "formal_manifest": "9734c8d3071d85e02e6c23636d57ac891c1ee08e9957daf851b54b279d47f392",
+    "prepared_manifest": "7d51a13d310eaf4d8d71f4b1c3b2bc26179fa57f4c9abee8eb20f2fedb1e491e"
+  },
+  "status": "complete",
+  "validation": {
+    "checked_external_graphs": 36,
+    "checked_metrics": 60,
+    "checked_native_indices": 24,
+    "errors": [],
+    "expected_case_count": 60,
+    "order_effect_count": 20,
+    "valid": true
+  }
+}

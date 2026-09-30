@@ -1,0 +1,1830 @@
+{
+  "batch": "gaussian",
+  "conditions": [
+    "gaussian_0p010",
+    "gaussian_0p050",
+    "gaussian_0p100"
+  ],
+  "generated_timestamp": "2026-07-10T16:28:20.355387+00:00",
+  "graph_kind": "raw_level0",
+  "phase3_config": "configs/phase3_repair_ablation_no_repair_gaussian.json",
+  "record_count": 60,
+  "records": [
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 14.923371254000813,
+        "distance_computation_count": 7158908,
+        "graph_extraction_seconds": 0.6632635979913175,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 22.67726704699453,
+        "total_compile_and_repair_seconds": 23.354733034968376,
+        "vector_transformation_seconds": 0.014202389982528985
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.39758005950289316,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.5002048484706598,
+        "removed_edge_ratio": 0.39693583526600607,
+        "retained_edge_ratio": 0.6030641647339939
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8984375,
+        "recall_at_10": 0.8687500000000001,
+        "recall_at_50": 0.81203125
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/gaussian_0p010/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6632635979913175,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6774659879738465,
+        "vector_transformation_seconds": 0.014202389982528985
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.761613606015883,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9140625,
+        "recall_at_10": 0.8812500000000001,
+        "recall_at_50": 0.83578125
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/gaussian_0p010/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 15.108655356918462,
+        "distance_computation_count": 4776363,
+        "graph_extraction_seconds": 0.6746138649759814,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 20.58296737202909,
+        "total_compile_and_repair_seconds": 21.27252366708126,
+        "vector_transformation_seconds": 0.01494243007618934
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.4011069205889565,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.5015697396216285,
+        "removed_edge_ratio": 0.40063986548813096,
+        "retained_edge_ratio": 0.5993601345118691
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8828125,
+        "recall_at_10": 0.8578125000000001,
+        "recall_at_50": 0.8028125
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/gaussian_0p010/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6746138649759814,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6895562950521708,
+        "vector_transformation_seconds": 0.01494243007618934
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7630279182186518,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.921875,
+        "recall_at_10": 0.8984375000000001,
+        "recall_at_50": 0.84203125
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/gaussian_0p010/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 15.147508882102557,
+        "distance_computation_count": 8079859,
+        "graph_extraction_seconds": 0.6388878040015697,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 23.68200222798623,
+        "total_compile_and_repair_seconds": 24.335167089942843,
+        "vector_transformation_seconds": 0.014277057955041528
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.42428608241384963,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.4879087950932884,
+        "removed_edge_ratio": 0.4235832923372455,
+        "retained_edge_ratio": 0.5764167076627544
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9140625,
+        "recall_at_10": 0.8648437500000001,
+        "recall_at_50": 0.81
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/gaussian_0p050/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6388878040015697,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6531648619566113,
+        "vector_transformation_seconds": 0.014277057955041528
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.761613606015883,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9296875,
+        "recall_at_10": 0.8921875000000001,
+        "recall_at_50": 0.82984375
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/gaussian_0p050/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 15.540727145969868,
+        "distance_computation_count": 5634905,
+        "graph_extraction_seconds": 0.6767653789138421,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 21.99138625897467,
+        "total_compile_and_repair_seconds": 22.6810907907784,
+        "vector_transformation_seconds": 0.012939152889885008
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.4249384071085786,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.49406574939607184,
+        "removed_edge_ratio": 0.4244012937426293,
+        "retained_edge_ratio": 0.5755987062573708
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8984375,
+        "recall_at_10": 0.853125,
+        "recall_at_50": 0.8090625
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/gaussian_0p050/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6767653789138421,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6897045318037271,
+        "vector_transformation_seconds": 0.012939152889885008
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7630279182186518,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8984375,
+        "recall_at_10": 0.8812500000000001,
+        "recall_at_50": 0.8378125000000001
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/gaussian_0p050/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 15.19482021103613,
+        "distance_computation_count": 10024204,
+        "graph_extraction_seconds": 0.7170996849890798,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 25.41205338004511,
+        "total_compile_and_repair_seconds": 26.14389898709487,
+        "vector_transformation_seconds": 0.01474592206068337
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.4834961463677466,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.4622730943435975,
+        "removed_edge_ratio": 0.4826879377796519,
+        "retained_edge_ratio": 0.5173120622203481
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8671875,
+        "recall_at_10": 0.84375,
+        "recall_at_50": 0.8079687500000001
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/gaussian_0p100/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.7170996849890798,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.7318456070497632,
+        "vector_transformation_seconds": 0.01474592206068337
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.761613606015883,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.890625,
+        "recall_at_10": 0.8695312500000001,
+        "recall_at_50": 0.8148437500000001
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/gaussian_0p100/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 15.375642299070023,
+        "distance_computation_count": 8590527,
+        "graph_extraction_seconds": 0.7180006069829687,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 24.745038289111108,
+        "total_compile_and_repair_seconds": 25.476759291021153,
+        "vector_transformation_seconds": 0.013720394927076995
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.4851885151150707,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.46298348987807014,
+        "removed_edge_ratio": 0.48446457970879114,
+        "retained_edge_ratio": 0.5155354202912088
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9453125,
+        "recall_at_10": 0.8726562500000001,
+        "recall_at_50": 0.8032812500000001
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/gaussian_0p100/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.7180006069829687,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.7317210019100457,
+        "vector_transformation_seconds": 0.013720394927076995
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7630279182186518,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8984375,
+        "recall_at_10": 0.8703125,
+        "recall_at_50": 0.8170312500000001
+      },
+      "seed": 42,
+      "source_metrics": "data/phase2_repaired_graphs/seed_42/gaussian_0p100/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 17.70359227398876,
+        "distance_computation_count": 5801524,
+        "graph_extraction_seconds": 0.700724656926468,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 25.751024276949465,
+        "total_compile_and_repair_seconds": 26.46808183484245,
+        "vector_transformation_seconds": 0.016332900966517627
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.3958885941644562,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.5057497994256014,
+        "removed_edge_ratio": 0.3953418027828191,
+        "retained_edge_ratio": 0.6046581972171808
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9453125,
+        "recall_at_10": 0.8578125000000001,
+        "recall_at_50": 0.8049999999999999
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/gaussian_0p010/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.700724656926468,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.7170575578929856,
+        "vector_transformation_seconds": 0.016332900966517627
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7627158080878589,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.921875,
+        "recall_at_10": 0.8890625000000001,
+        "recall_at_50": 0.840625
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/gaussian_0p010/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 15.169136024080217,
+        "distance_computation_count": 5057126,
+        "graph_extraction_seconds": 0.729413673048839,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 21.095983135979623,
+        "total_compile_and_repair_seconds": 21.841312826029025,
+        "vector_transformation_seconds": 0.015916017000563443
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.39113494149666195,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.5089049058358521,
+        "removed_edge_ratio": 0.39064644443927515,
+        "retained_edge_ratio": 0.6093535555607248
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9375,
+        "recall_at_10": 0.8679687500000001,
+        "recall_at_50": 0.8015625000000001
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/gaussian_0p010/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.729413673048839,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.7453296900494024,
+        "vector_transformation_seconds": 0.015916017000563443
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7638233036358139,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9296875,
+        "recall_at_10": 0.8914062500000001,
+        "recall_at_50": 0.8345312500000001
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/gaussian_0p010/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 18.532074881950393,
+        "distance_computation_count": 5492548,
+        "graph_extraction_seconds": 0.8668242329731584,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 26.25649453199003,
+        "total_compile_and_repair_seconds": 27.13641073589679,
+        "vector_transformation_seconds": 0.01309197093360126
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.42165759225650334,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.4962732991476843,
+        "removed_edge_ratio": 0.42113406859323377,
+        "retained_edge_ratio": 0.5788659314067662
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.859375,
+        "recall_at_10": 0.8539062500000001,
+        "recall_at_50": 0.8093750000000001
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/gaussian_0p050/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.8668242329731584,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.8799162039067596,
+        "vector_transformation_seconds": 0.01309197093360126
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7627158080878589,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.890625,
+        "recall_at_10": 0.8835937500000002,
+        "recall_at_50": 0.8370312500000001
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/gaussian_0p050/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 15.696500872028992,
+        "distance_computation_count": 5201842,
+        "graph_extraction_seconds": 0.7270712829194963,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 21.676919357967563,
+        "total_compile_and_repair_seconds": 22.416509283939376,
+        "vector_transformation_seconds": 0.012518643052317202
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.4182581590639466,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.499389683914393,
+        "removed_edge_ratio": 0.4177580311242411,
+        "retained_edge_ratio": 0.582241968875759
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9296875,
+        "recall_at_10": 0.8773437500000001,
+        "recall_at_50": 0.8045312499999999
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/gaussian_0p050/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.7270712829194963,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.7395899259718135,
+        "vector_transformation_seconds": 0.012518643052317202
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7638233036358139,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.921875,
+        "recall_at_10": 0.8890625000000001,
+        "recall_at_50": 0.8317187500000001
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/gaussian_0p050/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 15.22135047102347,
+        "distance_computation_count": 6970288,
+        "graph_extraction_seconds": 0.8452008549356833,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 23.247220568009652,
+        "total_compile_and_repair_seconds": 24.10519687400665,
+        "vector_transformation_seconds": 0.012775451061315835
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.4806761598957606,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.47078246715498195,
+        "removed_edge_ratio": 0.4800479314998371,
+        "retained_edge_ratio": 0.5199520685001628
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.875,
+        "recall_at_10": 0.85859375,
+        "recall_at_50": 0.8035937500000001
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/gaussian_0p100/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.8452008549356833,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.8579763059969991,
+        "vector_transformation_seconds": 0.012775451061315835
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7627158080878589,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.90625,
+        "recall_at_10": 0.8710937500000002,
+        "recall_at_50": 0.826875
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/gaussian_0p100/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 15.155907835927792,
+        "distance_computation_count": 8916212,
+        "graph_extraction_seconds": 0.7625466639874503,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 24.800357997999527,
+        "total_compile_and_repair_seconds": 25.57480162102729,
+        "vector_transformation_seconds": 0.011896959040313959
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.476808020656447,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.4742102694033147,
+        "removed_edge_ratio": 0.4760636441880481,
+        "retained_edge_ratio": 0.5239363558119519
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8984375,
+        "recall_at_10": 0.8523437500000001,
+        "recall_at_50": 0.8
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/gaussian_0p100/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.7625466639874503,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.7744436230277643,
+        "vector_transformation_seconds": 0.011896959040313959
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7638233036358139,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8828125,
+        "recall_at_10": 0.8664062500000002,
+        "recall_at_50": 0.8184375
+      },
+      "seed": 43,
+      "source_metrics": "data/phase2_repaired_graphs/seed_43/gaussian_0p100/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 15.302278973045759,
+        "distance_computation_count": 7129258,
+        "graph_extraction_seconds": 0.6759734830120578,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 23.15306231798604,
+        "total_compile_and_repair_seconds": 23.84887281898409,
+        "vector_transformation_seconds": 0.019837017985992134
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.39831065227592677,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.502491353537722,
+        "removed_edge_ratio": 0.39766541529798216,
+        "retained_edge_ratio": 0.6023345847020178
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9453125,
+        "recall_at_10": 0.8562500000000002,
+        "recall_at_50": 0.8026562500000001
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/gaussian_0p010/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6759734830120578,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.69581050099805,
+        "vector_transformation_seconds": 0.019837017985992134
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7659080244016894,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.984375,
+        "recall_at_10": 0.8921875000000001,
+        "recall_at_50": 0.8317187500000001
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/gaussian_0p010/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 16.755775862024166,
+        "distance_computation_count": 5667195,
+        "graph_extraction_seconds": 0.7141939959255978,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 23.03776444704272,
+        "total_compile_and_repair_seconds": 23.76910280599259,
+        "vector_transformation_seconds": 0.017144363024272025
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.38200286585929555,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.5242429142315955,
+        "removed_edge_ratio": 0.3814712951835074,
+        "retained_edge_ratio": 0.6185287048164926
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.890625,
+        "recall_at_10": 0.8835937500000002,
+        "recall_at_50": 0.81375
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/gaussian_0p010/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.7141939959255978,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.7313383589498699,
+        "vector_transformation_seconds": 0.017144363024272025
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7641212905611537,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8984375,
+        "recall_at_10": 0.9078125000000001,
+        "recall_at_50": 0.8426562500000001
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/gaussian_0p010/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 18.060361061012372,
+        "distance_computation_count": 9991593,
+        "graph_extraction_seconds": 0.7059765099547803,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 30.668946226942353,
+        "total_compile_and_repair_seconds": 31.39083143393509,
+        "vector_transformation_seconds": 0.01590869703795761
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.4234866259971844,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.49807171576269793,
+        "removed_edge_ratio": 0.42267714687939933,
+        "retained_edge_ratio": 0.5773228531206006
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.890625,
+        "recall_at_10": 0.8500000000000001,
+        "recall_at_50": 0.8053125000000001
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/gaussian_0p050/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.7059765099547803,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.721885206992738,
+        "vector_transformation_seconds": 0.01590869703795761
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7659080244016894,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.953125,
+        "recall_at_10": 0.8835937500000002,
+        "recall_at_50": 0.8239062500000001
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/gaussian_0p050/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 16.31918163993396,
+        "distance_computation_count": 7022371,
+        "graph_extraction_seconds": 0.6169830790022388,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 24.174090299988165,
+        "total_compile_and_repair_seconds": 24.803787203039974,
+        "vector_transformation_seconds": 0.012713824049569666
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.41143570305999816,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.512969165030604,
+        "removed_edge_ratio": 0.41081168531015994,
+        "retained_edge_ratio": 0.5891883146898401
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.90625,
+        "recall_at_10": 0.8679687500000002,
+        "recall_at_50": 0.81
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/gaussian_0p050/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6169830790022388,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6296969030518085,
+        "vector_transformation_seconds": 0.012713824049569666
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7641212905611537,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.953125,
+        "recall_at_10": 0.9078125,
+        "recall_at_50": 0.8375
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/gaussian_0p050/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 15.103204526007175,
+        "distance_computation_count": 9791940,
+        "graph_extraction_seconds": 0.7507482800865546,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 24.835351540939882,
+        "total_compile_and_repair_seconds": 25.602559926104732,
+        "vector_transformation_seconds": 0.016460105078294873
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.48451431252932897,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.46818586767946735,
+        "removed_edge_ratio": 0.48371656499296106,
+        "retained_edge_ratio": 0.516283435007039
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9296875,
+        "recall_at_10": 0.8750000000000002,
+        "recall_at_50": 0.7965625000000001
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/gaussian_0p100/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.7507482800865546,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.7672083851648495,
+        "vector_transformation_seconds": 0.016460105078294873
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7659080244016894,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9296875,
+        "recall_at_10": 0.8679687500000002,
+        "recall_at_50": 0.80984375
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/gaussian_0p100/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 16.36903762293514,
+        "distance_computation_count": 8184683,
+        "graph_extraction_seconds": 0.6283540480071679,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 24.984578095027246,
+        "total_compile_and_repair_seconds": 25.624764220090583,
+        "vector_transformation_seconds": 0.01183207705616951
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.47424193399278913,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.479398586539794,
+        "removed_edge_ratio": 0.4735485809374133,
+        "retained_edge_ratio": 0.5264514190625866
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9140625,
+        "recall_at_10": 0.8664062500000002,
+        "recall_at_50": 0.8101562499999999
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/gaussian_0p100/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6283540480071679,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6401861250633374,
+        "vector_transformation_seconds": 0.01183207705616951
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7641212905611537,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9375,
+        "recall_at_10": 0.8812500000000001,
+        "recall_at_50": 0.8226562500000001
+      },
+      "seed": 44,
+      "source_metrics": "data/phase2_repaired_graphs/seed_44/gaussian_0p100/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 16.799756010994315,
+        "distance_computation_count": 5196729,
+        "graph_extraction_seconds": 0.6986455200240016,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 22.47164905606769,
+        "total_compile_and_repair_seconds": 23.190549250110053,
+        "vector_transformation_seconds": 0.020254674018360674
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.3995814669817421,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.4970976005264271,
+        "removed_edge_ratio": 0.39907593552710474,
+        "retained_edge_ratio": 0.6009240644728953
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.90625,
+        "recall_at_10": 0.8726562500000001,
+        "recall_at_50": 0.789375
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/gaussian_0p010/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6986455200240016,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.7189001940423623,
+        "vector_transformation_seconds": 0.020254674018360674
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7624354859568064,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9296875,
+        "recall_at_10": 0.8890625000000001,
+        "recall_at_50": 0.8271875000000002
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/gaussian_0p010/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 15.880643498967402,
+        "distance_computation_count": 5497429,
+        "graph_extraction_seconds": 0.6253024720354006,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 22.156902763992548,
+        "total_compile_and_repair_seconds": 22.797399759059772,
+        "vector_transformation_seconds": 0.015194523031823337
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.388332693805886,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.5133068358784836,
+        "removed_edge_ratio": 0.3878094440762317,
+        "retained_edge_ratio": 0.6121905559237684
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.90625,
+        "recall_at_10": 0.8703125000000002,
+        "recall_at_50": 0.8096875000000001
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/gaussian_0p010/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6253024720354006,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6404969950672239,
+        "vector_transformation_seconds": 0.015194523031823337
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7654794711689399,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.921875,
+        "recall_at_10": 0.909375,
+        "recall_at_50": 0.8421875000000001
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/gaussian_0p010/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 16.308701604022644,
+        "distance_computation_count": 6752969,
+        "graph_extraction_seconds": 0.6088490759721026,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 23.884037195937708,
+        "total_compile_and_repair_seconds": 24.510373132885434,
+        "vector_transformation_seconds": 0.01748686097562313
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.42519897953185437,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.4878335350307246,
+        "removed_edge_ratio": 0.4245876391681068,
+        "retained_edge_ratio": 0.5754123608318932
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.953125,
+        "recall_at_10": 0.8601562500000001,
+        "recall_at_50": 0.78984375
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/gaussian_0p050/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6088490759721026,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6263359369477257,
+        "vector_transformation_seconds": 0.01748686097562313
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7624354859568064,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9296875,
+        "recall_at_10": 0.8828125,
+        "recall_at_50": 0.8239062500000001
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/gaussian_0p050/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 16.543842699029483,
+        "distance_computation_count": 5063283,
+        "graph_extraction_seconds": 0.6266782670281827,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 22.673882214934565,
+        "total_compile_and_repair_seconds": 23.3130772029981,
+        "vector_transformation_seconds": 0.01251672103535384
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.41649515703305773,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.5007263809955488,
+        "removed_edge_ratio": 0.41600679061871376,
+        "retained_edge_ratio": 0.5839932093812863
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.90625,
+        "recall_at_10": 0.8625,
+        "recall_at_50": 0.8054687500000002
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/gaussian_0p050/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6266782670281827,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6391949880635366,
+        "vector_transformation_seconds": 0.01251672103535384
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7654794711689399,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9296875,
+        "recall_at_10": 0.8914062500000001,
+        "recall_at_50": 0.8335937500000001
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/gaussian_0p050/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 15.945864721084945,
+        "distance_computation_count": 8071577,
+        "graph_extraction_seconds": 0.6247207639971748,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 24.957413078984246,
+        "total_compile_and_repair_seconds": 25.598851126036607,
+        "vector_transformation_seconds": 0.01671728305518627
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.4845460209971902,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.45994431325555984,
+        "removed_edge_ratio": 0.4838406282697892,
+        "retained_edge_ratio": 0.5161593717302108
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8984375,
+        "recall_at_10": 0.8460937500000001,
+        "recall_at_50": 0.7923437500000001
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/gaussian_0p100/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6247207639971748,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6414380470523611,
+        "vector_transformation_seconds": 0.01671728305518627
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7624354859568064,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9296875,
+        "recall_at_10": 0.8679687500000002,
+        "recall_at_50": 0.8146875
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/gaussian_0p100/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 15.91113071795553,
+        "distance_computation_count": 9134789,
+        "graph_extraction_seconds": 0.6326457109535113,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 25.300307994009927,
+        "total_compile_and_repair_seconds": 25.946155094890855,
+        "vector_transformation_seconds": 0.01320138992741704
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.47687817583516473,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.47881858108893177,
+        "removed_edge_ratio": 0.4761223706701085,
+        "retained_edge_ratio": 0.5238776293298915
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9140625,
+        "recall_at_10": 0.8632812500000001,
+        "recall_at_50": 0.80625
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/gaussian_0p100/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6326457109535113,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6458471008809283,
+        "vector_transformation_seconds": 0.01320138992741704
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.7654794711689399,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.921875,
+        "recall_at_10": 0.878125,
+        "recall_at_50": 0.8134375
+      },
+      "seed": 45,
+      "source_metrics": "data/phase2_repaired_graphs/seed_45/gaussian_0p100/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 16.82984463707544,
+        "distance_computation_count": 7680798,
+        "graph_extraction_seconds": 0.6127504849573597,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 25.27722251403611,
+        "total_compile_and_repair_seconds": 25.911433388944715,
+        "vector_transformation_seconds": 0.021460389951243997
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.3956798116539141,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.5056465273856579,
+        "removed_edge_ratio": 0.3949970570924073,
+        "retained_edge_ratio": 0.6050029429075927
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.875,
+        "recall_at_10": 0.8750000000000002,
+        "recall_at_50": 0.8110937500000001
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/gaussian_0p010/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6127504849573597,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6342108749086037,
+        "vector_transformation_seconds": 0.021460389951243997
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 0.9997000599880024,
+        "reciprocal_edge_ratio": 0.7665450264861683,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9453125,
+        "recall_at_10": 0.8968750000000001,
+        "recall_at_50": 0.8460937500000001
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/gaussian_0p010/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 16.733634956064634,
+        "distance_computation_count": 5343640,
+        "graph_extraction_seconds": 0.6611571819521487,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 22.892648181994446,
+        "total_compile_and_repair_seconds": 23.569310275954194,
+        "vector_transformation_seconds": 0.015504912007600069
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.3892155607046796,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.5111548174613335,
+        "removed_edge_ratio": 0.3887032357975385,
+        "retained_edge_ratio": 0.6112967642024615
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.8671875,
+        "recall_at_10": 0.8617187500000001,
+        "recall_at_50": 0.8078125
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/gaussian_0p010/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p010",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6611571819521487,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6766620939597487,
+        "vector_transformation_seconds": 0.015504912007600069
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 0.9996999699969997,
+        "reciprocal_edge_ratio": 0.7653202612857026,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9296875,
+        "recall_at_10": 0.8796875000000002,
+        "recall_at_50": 0.836875
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/gaussian_0p010/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 16.220783672994003,
+        "distance_computation_count": 8498708,
+        "graph_extraction_seconds": 0.6469862819649279,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 25.07848141400609,
+        "total_compile_and_repair_seconds": 25.744489194941707,
+        "vector_transformation_seconds": 0.01902149897068739
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.423343143025309,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.4947066296522844,
+        "removed_edge_ratio": 0.422613301942319,
+        "retained_edge_ratio": 0.577386698057681
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.890625,
+        "recall_at_10": 0.8734375000000001,
+        "recall_at_50": 0.8121875000000001
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/gaussian_0p050/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6469862819649279,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6660077809356153,
+        "vector_transformation_seconds": 0.01902149897068739
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 0.9997000599880024,
+        "reciprocal_edge_ratio": 0.7665450264861683,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.921875,
+        "recall_at_10": 0.89453125,
+        "recall_at_50": 0.8351562500000002
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/gaussian_0p050/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 16.454254964948632,
+        "distance_computation_count": 5343640,
+        "graph_extraction_seconds": 0.6426460020011291,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 22.491108738002367,
+        "total_compile_and_repair_seconds": 23.14547352702357,
+        "vector_transformation_seconds": 0.011718787020072341
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.41600782459858177,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.503636807988176,
+        "removed_edge_ratio": 0.4154954996914407,
+        "retained_edge_ratio": 0.5845045003085593
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9296875,
+        "recall_at_10": 0.8632812500000001,
+        "recall_at_50": 0.8070312500000001
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/gaussian_0p050/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p050",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6426460020011291,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6543647890212014,
+        "vector_transformation_seconds": 0.011718787020072341
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 0.9996999699969997,
+        "reciprocal_edge_ratio": 0.7653202612857026,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9375,
+        "recall_at_10": 0.8843750000000001,
+        "recall_at_50": 0.82953125
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/gaussian_0p050/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 16.517874705954455,
+        "distance_computation_count": 14516025,
+        "graph_extraction_seconds": 0.6737401999998838,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 30.02889472001698,
+        "total_compile_and_repair_seconds": 30.719862508005463,
+        "vector_transformation_seconds": 0.017227587988600135
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.48320188346085935,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.4674725998400677,
+        "removed_edge_ratio": 0.48218952324896996,
+        "retained_edge_ratio": 0.51781047675103
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.890625,
+        "recall_at_10": 0.8796875000000002,
+        "recall_at_50": 0.799375
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/gaussian_0p100/D_A/raw_level0/practical_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6737401999998838,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6909677879884839,
+        "vector_transformation_seconds": 0.017227587988600135
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 0.9997000599880024,
+        "reciprocal_edge_ratio": 0.7665450264861683,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.9453125,
+        "recall_at_10": 0.8710937500000001,
+        "recall_at_50": 0.8165625000000001
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/gaussian_0p100/D_A/raw_level0/no_repair/metrics.json",
+      "subset": "D_A",
+      "variant": "no_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 15.770884454017505,
+        "distance_computation_count": 5797244,
+        "graph_extraction_seconds": 0.6412083859322593,
+        "processed_node_ratio": 1.0,
+        "repair_seconds": 22.361940470989794,
+        "total_compile_and_repair_seconds": 23.01424942491576,
+        "vector_transformation_seconds": 0.011100567993707955
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.4749368326676991,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 1.0,
+        "reciprocal_edge_ratio": 0.4802513673920633,
+        "removed_edge_ratio": 0.47438957651688923,
+        "retained_edge_ratio": 0.5256104234831107
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.90625,
+        "recall_at_10": 0.8757812500000002,
+        "recall_at_50": 0.8065625000000001
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/gaussian_0p100/D_B/raw_level0/practical_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "practical_repair"
+    },
+    {
+      "batch": "gaussian",
+      "condition": "gaussian_0p100",
+      "cost": {
+        "candidate_generation_seconds": 0.0,
+        "distance_computation_count": 0,
+        "graph_extraction_seconds": 0.6412083859322593,
+        "processed_node_ratio": 0.0,
+        "repair_seconds": 0.0,
+        "total_compile_and_repair_seconds": 0.6523089539259672,
+        "vector_transformation_seconds": 0.011100567993707955
+      },
+      "graph_diagnostics": {
+        "added_edge_ratio": 0.0,
+        "connected_component_count": 1,
+        "directed_reachable_from_entry_ratio": 0.9996999699969997,
+        "reciprocal_edge_ratio": 0.7653202612857026,
+        "removed_edge_ratio": 0.0,
+        "retained_edge_ratio": 1.0
+      },
+      "local_held_out_recall": {
+        "recall_at_1": 0.90625,
+        "recall_at_10": 0.8765625000000001,
+        "recall_at_50": 0.8170312500000001
+      },
+      "seed": 46,
+      "source_metrics": "data/phase2_repaired_graphs/seed_46/gaussian_0p100/D_B/raw_level0/no_repair/metrics.json",
+      "subset": "D_B",
+      "variant": "no_repair"
+    }
+  ],
+  "schema_version": 1,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "subsets": [
+    "D_A",
+    "D_B"
+  ],
+  "variants": [
+    "practical_repair",
+    "no_repair"
+  ]
+}

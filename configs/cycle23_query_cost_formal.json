@@ -1,0 +1,13 @@
+{
+  "schema_version": "metricdb.cycle23.v1",
+  "baseline_commit": "fbb6fda",
+  "corpus_size": 25000,
+  "evaluated_pair_corpus_size": 16667,
+  "scale_note": "25k is the frozen Stage 20 source corpus; the D_A+D_B pair excludes D_C and contains 16,667 indexed vectors",
+  "seeds": [42, 43],
+  "conditions": ["rotation", "gaussian_0.1"],
+  "methods": ["full_rebuild", "incremental_A_to_B", "incremental_B_to_A", "random_direct", "bounded_n4_c2", "bounded_n8_c2", "unlimited_join1"],
+  "query": {"k": 10, "ef_search": [16, 32, 64, 128], "queries_per_side": 256, "warmup_queries": 20, "repetitions": 5},
+  "loaded_base": {"report": ["offline_build", "add_only", "load_plus_add", "rebuild_base_plus_add"], "semantic_scope": "shared-space base only"},
+  "output": {"root": "data/phase4_cycle23"}
+}

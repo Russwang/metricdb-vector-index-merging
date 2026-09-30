@@ -1,0 +1,44 @@
+{
+  "profile": "formal_experiment",
+  "description": "Formal-scale pairwise Phase 2 input slice for Phase 3 Option B D_A + D_B multi-seed validation.",
+  "phase1": {
+    "transformation_dir": "unused_in_multiseed",
+    "subset_dir": "unused_in_multiseed",
+    "source_config": "configs/phase1_formal.json"
+  },
+  "subsets": ["D_A", "D_B"],
+  "transformations": {
+    "exact": ["identity", "rotation"],
+    "include_general_linear_stress": false
+  },
+  "noise": {
+    "families": ["gaussian"],
+    "levels": [0.1]
+  },
+  "graph": {
+    "kinds": ["raw_level0"],
+    "degree_budget_policy": "original_degree",
+    "candidate_search_k": 64,
+    "force_weak_connectivity": true
+  },
+  "search": {
+    "m": 16,
+    "ef_construction": 200,
+    "ef_search": 64,
+    "evaluation_k": [1, 10, 50],
+    "brute_force_batch_size": 256
+  },
+  "queries": {
+    "corpus_point_count_per_subset": 128,
+    "held_out_count_per_subset": 128
+  },
+  "seeds": {
+    "data": [42, 43],
+    "transformation": 142,
+    "noise": 242,
+    "query": 342
+  },
+  "stages": {
+    "run_tests": false
+  }
+}

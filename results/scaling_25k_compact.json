@@ -1,0 +1,171 @@
+{
+  "method_results": {
+    "seed_42/gaussian_0p050": {
+      "full_rebuild_hnsw": {
+        "average_query_ms": 0.06662378518740297,
+        "integration_seconds_median": 1.9882520090322942,
+        "recall_at_10": 0.6509765624999999
+      },
+      "indexed_cross_knn/bounded_n4_c2": {
+        "average_query_ms": 4.688277763534643,
+        "integration_seconds_median": 1.712339591118507,
+        "recall_at_10": 0.574609375
+      },
+      "indexed_cross_knn/bounded_n8_c2": {
+        "average_query_ms": 5.5096691503422335,
+        "integration_seconds_median": 2.1374572350177914,
+        "recall_at_10": 0.5890625
+      },
+      "indexed_cross_knn/random_direct": {
+        "average_query_ms": 4.358981943369145,
+        "integration_seconds_median": 1.9758022780297324,
+        "recall_at_10": 0.49335937500000004
+      },
+      "indexed_cross_knn/unlimited_join1": {
+        "average_query_ms": 4.958239072266224,
+        "integration_seconds_median": 3.155594189884141,
+        "recall_at_10": 0.6064453125
+      }
+    },
+    "seed_42/gaussian_0p100": {
+      "full_rebuild_hnsw": {
+        "average_query_ms": 0.03478793564681837,
+        "integration_seconds_median": 1.116600304027088,
+        "recall_at_10": 0.653125
+      },
+      "indexed_cross_knn/bounded_n4_c2": {
+        "average_query_ms": 4.51186167765627,
+        "integration_seconds_median": 1.7031089519150555,
+        "recall_at_10": 0.5787109374999999
+      },
+      "indexed_cross_knn/bounded_n8_c2": {
+        "average_query_ms": 5.743639726688343,
+        "integration_seconds_median": 2.13025490695145,
+        "recall_at_10": 0.5873046874999999
+      },
+      "indexed_cross_knn/random_direct": {
+        "average_query_ms": 4.308210933459122,
+        "integration_seconds_median": 1.9638960100710392,
+        "recall_at_10": 0.494140625
+      },
+      "indexed_cross_knn/unlimited_join1": {
+        "average_query_ms": 4.923465621232026,
+        "integration_seconds_median": 3.5057022779947147,
+        "recall_at_10": 0.61015625
+      }
+    },
+    "seed_42/rotation": {
+      "full_rebuild_hnsw": {
+        "average_query_ms": 0.021397082036855863,
+        "integration_seconds_median": 1.0456737339263782,
+        "recall_at_10": 0.65390625
+      },
+      "indexed_cross_knn/bounded_n4_c2": {
+        "average_query_ms": 5.00999891983156,
+        "integration_seconds_median": 1.8118716299068183,
+        "recall_at_10": 0.583984375
+      },
+      "indexed_cross_knn/bounded_n8_c2": {
+        "average_query_ms": 6.3097613556237775,
+        "integration_seconds_median": 2.795589996036142,
+        "recall_at_10": 0.59765625
+      },
+      "indexed_cross_knn/random_direct": {
+        "average_query_ms": 4.3338202792710945,
+        "integration_seconds_median": 1.943051302107051,
+        "recall_at_10": 0.48105468749999997
+      },
+      "indexed_cross_knn/unlimited_join1": {
+        "average_query_ms": 6.292963152191078,
+        "integration_seconds_median": 3.6439778360072523,
+        "recall_at_10": 0.6158203124999999
+      }
+    },
+    "seed_43/gaussian_0p050": {
+      "full_rebuild_hnsw": {
+        "average_query_ms": 0.029581261742350762,
+        "integration_seconds_median": 1.137133848038502,
+        "recall_at_10": 0.6578124999999999
+      },
+      "indexed_cross_knn/bounded_n4_c2": {
+        "average_query_ms": 4.494771912277429,
+        "integration_seconds_median": 1.71468198497314,
+        "recall_at_10": 0.587109375
+      },
+      "indexed_cross_knn/bounded_n8_c2": {
+        "average_query_ms": 5.505502712821908,
+        "integration_seconds_median": 2.0491181270917878,
+        "recall_at_10": 0.5990234374999999
+      },
+      "indexed_cross_knn/random_direct": {
+        "average_query_ms": 4.270078416084289,
+        "integration_seconds_median": 1.8963079048553482,
+        "recall_at_10": 0.5185546875
+      },
+      "indexed_cross_knn/unlimited_join1": {
+        "average_query_ms": 4.9857788301324035,
+        "integration_seconds_median": 3.653644345002249,
+        "recall_at_10": 0.6244140625000001
+      }
+    },
+    "seed_43/gaussian_0p100": {
+      "full_rebuild_hnsw": {
+        "average_query_ms": 0.035086124853478395,
+        "integration_seconds_median": 1.1631075670011342,
+        "recall_at_10": 0.6669921875
+      },
+      "indexed_cross_knn/bounded_n4_c2": {
+        "average_query_ms": 4.69814678513103,
+        "integration_seconds_median": 1.7224890281213447,
+        "recall_at_10": 0.5779296875000001
+      },
+      "indexed_cross_knn/bounded_n8_c2": {
+        "average_query_ms": 5.138629790963023,
+        "integration_seconds_median": 2.005144851980731,
+        "recall_at_10": 0.583984375
+      },
+      "indexed_cross_knn/random_direct": {
+        "average_query_ms": 4.493801306807654,
+        "integration_seconds_median": 2.117560020997189,
+        "recall_at_10": 0.50390625
+      },
+      "indexed_cross_knn/unlimited_join1": {
+        "average_query_ms": 5.073520861515135,
+        "integration_seconds_median": 3.4999408749863505,
+        "recall_at_10": 0.6140625
+      }
+    },
+    "seed_43/rotation": {
+      "full_rebuild_hnsw": {
+        "average_query_ms": 0.030222046916605905,
+        "integration_seconds_median": 1.1025306769879535,
+        "recall_at_10": 0.6525390625
+      },
+      "indexed_cross_knn/bounded_n4_c2": {
+        "average_query_ms": 4.802091441206358,
+        "integration_seconds_median": 1.6833192069316283,
+        "recall_at_10": 0.57265625
+      },
+      "indexed_cross_knn/bounded_n8_c2": {
+        "average_query_ms": 5.449682420021418,
+        "integration_seconds_median": 2.0859402489149943,
+        "recall_at_10": 0.585546875
+      },
+      "indexed_cross_knn/random_direct": {
+        "average_query_ms": 4.517417494071196,
+        "integration_seconds_median": 2.004143378115259,
+        "recall_at_10": 0.5154296875
+      },
+      "indexed_cross_knn/unlimited_join1": {
+        "average_query_ms": 5.097914138787019,
+        "integration_seconds_median": 3.49244840699248,
+        "recall_at_10": 0.6156250000000001
+      }
+    }
+  },
+  "schema_version": "metricdb.scaling-pairs-compact.v1",
+  "source": {
+    "manifest": "data/phase3_stage20_25k/phase3/manifest.json",
+    "manifest_sha256": "9e8d9ce2303994dcd30f9f3708c2d11c4db160ebef97eaf871e9b648900ee129"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "rows": [
+    {
+      "integration_seconds": 3.177843165525701,
+      "label": "Synthetic 50k",
+      "latency_ms": 0.06728293359022548,
+      "method": "Full rebuild",
+      "recall": 0.5410481770833333
+    },
+    {
+      "integration_seconds": 3.7815714394673705,
+      "label": "Synthetic 50k",
+      "latency_ms": 6.082766106752994,
+      "method": "Bounded n8/c2",
+      "recall": 0.4158854166666666
+    },
+    {
+      "integration_seconds": 5.414915165514685,
+      "label": "Synthetic 50k",
+      "latency_ms": 5.785744529968421,
+      "method": "Join1",
+      "recall": 0.44697265625000004
+    },
+    {
+      "integration_seconds": 4.437063824560028,
+      "label": "Sequential 15k",
+      "latency_ms": 0.09988790180967853,
+      "method": "Full rebuild",
+      "recall": 0.6785047743055556
+    },
+    {
+      "integration_seconds": 4.269209114543628,
+      "label": "Sequential 15k",
+      "latency_ms": 4.384633366309269,
+      "method": "Bounded n8/c2",
+      "recall": 0.33755425347222223
+    },
+    {
+      "integration_seconds": 4.764056860993151,
+      "label": "Sequential 15k",
+      "latency_ms": 4.341166828023941,
+      "method": "Join1",
+      "recall": 0.36131727430555555
+    },
+    {
+      "integration_seconds": 1.0290058209793642,
+      "label": "GloVe 25k",
+      "latency_ms": 0.014350583512623416,
+      "method": "Full rebuild",
+      "recall": 0.996875
+    },
+    {
+      "integration_seconds": 2.2758104705717415,
+      "label": "GloVe 25k",
+      "latency_ms": 2.114924139220875,
+      "method": "Bounded n8/c2",
+      "recall": 0.966455078125
+    },
+    {
+      "integration_seconds": 5.281316420005169,
+      "label": "GloVe 25k",
+      "latency_ms": 2.34767098197608,
+      "method": "Join1",
+      "recall": 0.9757324218750001
+    }
+  ],
+  "schema_version": "metricdb.final-plot-rows.v1",
+  "sources": [
+    "results/cycle21_50k_compact.json",
+    "results/cycle24_formal.json",
+    "results/cycle25_formal.json"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "description": "Stage 17 isolated scaling plan. Run sequentially and stop after a failed resource or quality gate.",
+  "output_root": "data/phase3_scaling",
+  "phase1_template": "configs/phase1_formal.json",
+  "seed": 42,
+  "conditions": ["rotation", "gaussian_0p100"],
+  "sizes": [10000, 25000, 50000, 100000],
+  "exact_sampled_max_size": 10000
+}

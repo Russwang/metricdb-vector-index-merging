@@ -1,0 +1,13 @@
+{
+  "profile": "smoke_test",
+  "description": "Stage 16 seed-43 direct indexed baseline.",
+  "phase2": {"compiled_graph_root": "data/phase2_compiled_graphs", "repaired_graph_root": "data/phase2_repaired_graphs", "manifest": "data/phase2_run_manifest.json", "recommended_pairwise_config": "configs/phase2_pairwise_option_b.json"},
+  "subsets": {"pair": ["D_A", "D_B"]},
+  "input": {"data_seeds": [43], "conditions": ["gaussian_0p100"], "graph_kind": "raw_level0", "within_subset_variant": "practical_repair", "require_raw_no_repair_graph": true},
+  "methods": {"enabled": ["bruteforce_ground_truth", "indexed_cross_knn"], "first_round": ["bruteforce_ground_truth"], "second_round_planned": ["indexed_cross_knn"]},
+  "search": {"m": 16, "ef_construction": 40, "ef_search": 32, "evaluation_k": [1, 10, 50], "brute_force_batch_size": 128},
+  "cross_links": {"sample_ratios": [0.05], "cross_k": [4], "smoke_default": {"sample_ratio": 0.05, "cross_k": 4}, "bridge_budget": {"mode": "sqrt", "sqrt_multiplier": 2.0}, "bridge_selection": "random", "candidate_k": 64, "candidate_ef_search": 128, "cross_degree_cap": 4, "propagation_hops": 0, "random_seed": 442},
+  "metrics": {"latency_warmup_queries": 5, "latency_repetitions": 3},
+  "output": {"root": "data", "manifest": "data/phase3_indexed_seed43_smoke_manifest.json"},
+  "stages": {"run_tests": false, "readiness_check_only": false, "fail_on_missing_inputs": true}
+}

@@ -1,0 +1,29 @@
+{
+  "profile": "formal_experiment",
+  "description": "Phase 3 no-repair ablation laplacian batch with fixed cross-link parameters.",
+  "phase2": {
+    "compiled_graph_root": "data/phase2_compiled_graphs",
+    "repaired_graph_root": "data/phase2_repaired_graphs",
+    "manifest": "data/phase2_run_manifest.json",
+    "recommended_pairwise_config": "configs/phase2_pairwise_formal_laplacian.json"
+  },
+  "subsets": {"pair": ["D_A", "D_B"]},
+  "input": {
+    "data_seeds": [42, 43, 44, 45, 46],
+    "conditions": ["laplacian_0p010", "laplacian_0p050", "laplacian_0p100"],
+    "graph_kind": "raw_level0",
+    "within_subset_variant": "no_repair",
+    "require_raw_no_repair_graph": true
+  },
+  "methods": {
+    "enabled": ["bruteforce_ground_truth", "dual_index", "no_cross_merged", "random_cross_links", "sampled_cross_knn"],
+    "first_round": ["bruteforce_ground_truth", "dual_index", "no_cross_merged", "random_cross_links", "sampled_cross_knn"],
+    "second_round_planned": []
+  },
+  "search": {"m": 16, "ef_construction": 200, "ef_search": 64, "evaluation_k": [1, 10, 50], "brute_force_batch_size": 256},
+  "cross_links": {"sample_ratios": [0.05], "cross_k": [4], "smoke_default": {"sample_ratio": 0.05, "cross_k": 4}, "random_seed": 442},
+  "sweep": {"enabled": false},
+  "metrics": {"latency_warmup_queries": 5, "latency_repetitions": 3},
+  "output": {"root": "data/phase3_repair_ablation_no_repair_laplacian", "manifest": "data/phase3_repair_ablation_no_repair_laplacian_manifest.json"},
+  "stages": {"run_tests": false, "readiness_check_only": false, "fail_on_missing_inputs": true}
+}

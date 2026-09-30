@@ -1,0 +1,70 @@
+{
+  "schema_version": "metricdb.cycle25.v2",
+  "baseline_commit": "fbb6fda",
+  "dataset": {
+    "name": "GloVe 2024 Wikipedia + Gigaword 5 50d",
+    "official_page": "https://nlp.stanford.edu/projects/glove/",
+    "download_url": "https://nlp.stanford.edu/data/wordvecs/glove.2024.wikigiga.50d.zip",
+    "license": "Open Data Commons PDDL v1.0",
+    "license_url": "https://opendatacommons.org/licenses/pddl/1.0/",
+    "archive_sha256": "afa5e258ee38272db6394547c4b075ecbb7b2164e98542c8d1237b6029b35a65",
+    "sha256_policy": "computed from downloaded archive and required in the completed run manifest",
+    "dimension": 50,
+    "valid_unique_rows": 25512,
+    "normalization": "L2"
+  },
+  "split": {
+    "seed": 42,
+    "corpus": 25000,
+    "D_A": 12500,
+    "D_B": 12500,
+    "queries": 512,
+    "queries_per_side": 256,
+    "sampling_scope": "one frozen corpus/query split shared by all experiment seeds"
+  },
+  "experiment_seeds": [42, 43],
+  "conditions": ["rotation", "gaussian_0.1"],
+  "methods": ["full_rebuild", "incremental_A_to_B", "incremental_B_to_A", "random_direct", "bounded_n8_c2", "join1"],
+  "timing_repetitions": 5,
+  "search": {
+    "m": 16,
+    "ef_construction": 200,
+    "ef_search": 64,
+    "evaluation_k": [10],
+    "brute_force_batch_size": 256
+  },
+  "cross_links": {
+    "sample_ratios": [0.05],
+    "cross_k": [4],
+    "smoke_default": {"sample_ratio": 0.05, "cross_k": 4},
+    "bridge_budget": {"mode": "sqrt", "sqrt_multiplier": 2.0},
+    "candidate_k": 64,
+    "candidate_ef_search": 128,
+    "cross_degree_cap": 4,
+    "repair_policy": "no_repair",
+    "random_seed": 442,
+    "variants": {
+      "random_direct": {"bridge_selection": "random", "propagation_hops": 0},
+      "bounded_n8_c2": {"bridge_selection": "high_degree", "propagation_hops": 1, "propagation_neighbor_budget": 8, "propagation_candidate_cap": 2},
+      "join1": {"bridge_selection": "high_degree", "propagation_hops": 1}
+    }
+  },
+  "prepared_input": {
+    "glove_root": "data/phase4_cycle25/glove",
+    "root": "data/phase4_cycle25/prepared",
+    "transformation_seed": 2500,
+    "noise_seed": 3500
+  },
+  "statistics": {
+    "pairing_unit": "experiment_seed_x_condition",
+    "bootstrap_samples": 10000,
+    "bootstrap_seed": 20260715,
+    "integration_ratio_transform": "log",
+    "fixed_split_caveat": "experiment seeds vary rotations, Gaussian perturbations, and stochastic portal selection; the corpus/query split remains seed 42"
+  },
+  "output": {
+    "root": "data/phase4_cycle25/formal",
+    "compact_result": "results/cycle25_formal.json",
+    "final_manifest": "results/final_manifest.json"
+  }
+}
